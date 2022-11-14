@@ -11,7 +11,7 @@ export default function Home() {
           Liste de mes composants
         </span>
       </div>
-      <div className="mt-5">
+      <div className="flex justify-center mt-5">
         <ul className="space-x-10 mx-10 text-lg font-extrabold">
           <Link className="hover:text-blue-500" to="/footer">
             Footer
