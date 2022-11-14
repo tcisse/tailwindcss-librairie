@@ -2,12 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 export default function Home() {
   return (
-    <div>
+    <div className="font-raleway">
       <div className="">
         <h1 className="text-4xl font-semibold flex items-center justify-center my-20 text-[#02c3f4]">
           TailwindCss Libraire
         </h1>
-
         <span className="flex justify-center text-4xl">
           Liste de mes composants
         </span>
@@ -21,7 +20,13 @@ export default function Home() {
             NavBar
           </Link>
           <Link className="hover:text-blue-500" to="/signup">
-            SignUp
+            Sign Up
+          </Link>
+          <Link className="hover:text-blue-500" to="/signin">
+            Sign In
+          </Link>
+          <Link className="hover:text-blue-500" to="/teamsection">
+            Team Section
           </Link>
         </ul>
       </div>
