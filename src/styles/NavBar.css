@@ -1,3 +1,7 @@
 * {
   transition: all 100ms;
 }
+
+#navbarMenu{
+    transition: left 100ms ease-in,left 500ms ease-out;
+}

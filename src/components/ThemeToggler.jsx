@@ -23,12 +23,6 @@ function ThemeToggler() {
           )}
         </div>
       </button>
-
-      <style jsx>{`
-        button {
-          transition: transform 200ms;
-        }
-      `}</style>
     </>
   );
 }
