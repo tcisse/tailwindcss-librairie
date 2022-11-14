@@ -1,18 +1,23 @@
-import React from "react";
-import Footer from "./components/Footer/index";
-import Navbar from "./components/Navbar/index";
-import SignIn from "./components/SignIn/index";
-import SignUp from "./components/SignUp/index";
-import TeamSection from "./components/TeamSection/index";
+import { Routes, Route } from "react-router-dom";
 
-export default function App() {
+import Footer from "./components/Footer";
+import NavBar from "./components/NavBar";
+import SignUp from "./components/SignUp";
+import TeamSection from "./components/TeamSection";
+import Home from "./components/Home";
+
+function App() {
   return (
-    <div>
-      <Footer />
-      <Navbar />
-      <SignIn />
-      <SignUp />
-      <TeamSection />
+    <div className="">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/navbar" element={<NavBar />} />
+        <Route path="/SignUp" element={<SignUp />} />
+        <Route path="/teamSection" element={<TeamSection />} />
+        <Route path="/footer" element={<Footer />} />
+      </Routes>
     </div>
   );
 }
+
+export default App;

@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function index() {
+export default function Footer() {
   return <div>Footer</div>;
 }
