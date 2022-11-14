@@ -28,6 +28,15 @@ export default function Home() {
           <Link className="hover:text-blue-500" to="/teamsection">
             Team Section
           </Link>
+          <Link className="hover:text-blue-500" to="/faq">
+            Faq Section
+          </Link>
+          <Link className="hover:text-blue-500" to="/newsletter">
+            Newsletter
+          </Link>
+          <Link className="hover:text-blue-500" to="/pricing">
+            Pricing Section
+          </Link>
         </ul>
       </div>
     </div>
