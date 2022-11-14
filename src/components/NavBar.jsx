@@ -4,10 +4,12 @@ import "../styles/NavBar.css";
 
 export default function NavBar() {
   return (
-    <div className="w-full h-[70px] px-8 flex items-center justify-between shadow-md">
-      <div className="flex items-center h-full text-[30px] text-indigo-500">NavBar</div>
+    <div className="w-full h-[70px] px-8 flex items-center justify-between shadow-md dark:bg-slate-800">
+      <div className="flex items-center h-full text-[30px] text-indigo-500">
+        NavBar
+      </div>
       <div className="flex h-full">
-        <ul className="flex items-center justify-between w-full h-full space-x-8 hover:[&>*]:scale-110 hover:[&>*]:text-indigo-500">
+        <ul className="flex items-center justify-between w-full h-full space-x-8 hover:[&>*]:scale-110 hover:[&>*]:text-indigo-500 dark:text-gray-200">
           <li className="hover:scale-110">
             <Link to="#">Home</Link>
           </li>
