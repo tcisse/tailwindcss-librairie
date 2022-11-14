@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function index() {
-  return <div>Navbar</div>;
+  return <div>Team section</div>;
 }
