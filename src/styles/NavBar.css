@@ -2,6 +2,9 @@
   transition: all 100ms;
 }
 
-#navbarMenu{
-    transition: left 100ms ease-in,left 500ms ease-out;
+#navbarMenu {
+  transition: left 100ms ease-in, left 500ms ease-out;
+}
+#dropdownMenu {
+  transition: transform 200ms ease-in-out;
 }
