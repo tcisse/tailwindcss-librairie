@@ -107,7 +107,7 @@ export default function NavBar() {
         </nav>
       </div>
       {/*3ème */}
-      <nav className="fixed mt-44 bg-[#03045E]  w-full shadow text-white font-semibold">
+      <nav className="fixed mt-44 bg-[#3235ce]  w-full shadow text-white font-semibold">
         <div className="container m-auto flex justify-between items-center">
           <h1 className="pl-8 py-4 text-xl font-bold">
             <a href="/">Logo</a>
@@ -139,9 +139,7 @@ export default function NavBar() {
             <div className="absolute top-0 -right-full opacity-0 h-80 w-8/12 bg-white border transform group-focus:right-0 group-focus:opacity-100 transition-all duration-300">
               <ul className="flex flex-col items-center w-full text-base cursor-pointer pt-1 font-bold">
                 <li className="close_window ml-44">
-                  <a href="/" className="text-2xl">
-                    X
-                  </a>
+                  <button className="text-2xl">X</button>
                 </li>
                 <li className="hover:bg-gray-200 py-2 px-6 w-full">
                   <a href="/">Acceuil</a>
