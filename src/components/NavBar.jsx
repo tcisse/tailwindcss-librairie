@@ -38,7 +38,7 @@ export default function NavBar() {
       <div className="flex flex-col w-full space-y-10">
         <div className="flex flex-col w-full space-y-4">
           {/* Navbar without icons and dropdown menu */}
-          <div className="text-center text-indigo-500">
+          <div className="px-4 text-center text-indigo-500">
             Simple navbar without icons
           </div>
           <div className="w-full h-[70px] px-4 lg:px-8 flex items-center justify-between shadow-md dark:bg-slate-800 bg-white z-40">
@@ -107,7 +107,7 @@ export default function NavBar() {
 
         <div className="flex flex-col w-full space-y-4">
           {/* Navbar with icons and dropdown menu */}
-          <div className="text-center text-indigo-500">
+          <div className="px-4 text-center text-indigo-500">
             Navbar with icons and dropdown menu
           </div>
           <div className="w-full h-[60px] text-slate-700 md:h-[70px] px-4 lg:px-8 flex items-center justify-between shadow-md dark:bg-slate-800 bg-white z-30">
