@@ -9,6 +9,7 @@ import SignIn from "./components/SignIn";
 import Newsletter from "./components/Newsletter";
 import FaqSection from "./components/FaqSection";
 import PrincingSection from "./components/PrincingSection";
+import Accordion from "./components/Accordion";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/newsletter" element={<Newsletter />} />
         <Route path="/faq" element={<FaqSection />} />
         <Route path="/pricing" element={<PrincingSection />} />
+        <Route path="/accordion" element={<Accordion />} />
       </Routes>
     </div>
   );

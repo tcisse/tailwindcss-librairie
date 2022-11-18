@@ -37,6 +37,9 @@ export default function Home() {
           <Link className="hover:text-blue-500" to="/pricing">
             Pricing Section
           </Link>
+          <Link className="hover:text-blue-500" to="/accordion">
+            Accordion
+          </Link>
         </ul>
       </div>
     </div>

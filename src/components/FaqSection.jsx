@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function FaqComponent() {
+export default function FaqSection() {
   return (
     <div className="flex items-center justify-center h-screen">
       <div className="bg-white">
@@ -9,7 +9,7 @@ export default function FaqComponent() {
           <p className="mt-4 mb-8 text-gray-600">
             React Interview Questions And Answers
           </p>
-          <div className="">
+          <div className="space-y-5">
             <details className="w-full rounded-lg ring-1 ring-purple-600">
               <summary className="px-4 py-6">What is React ?</summary>
               <p className="px-4 py-6 pt-0 -mt-4 text-gray-600">
