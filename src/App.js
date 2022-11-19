@@ -1,8 +1,15 @@
 import { Routes, Route } from "react-router-dom";
-import {Home,NavBar,NavBar2,SignUp,SignIn,TeamSection,
-        Footer,NewsLetter,FaqSection, PricingSection} 
-from "./components/exports" 
-import './App.css'
+
+import Footer from "./components/Footer";
+import NavBar from "./components/NavBar";
+import SignUp from "./components/SignUp";
+import TeamSection from "./components/TeamSection";
+import Home from "./components/Home";
+import SignIn from "./components/SignIn";
+import Newsletter from "./components/Newsletter";
+import FaqSection from "./components/FaqSection";
+import PrincingSection from "./components/PrincingSection";
+import Accordion from "./components/Accordion";
 
 function App() {
   return (
