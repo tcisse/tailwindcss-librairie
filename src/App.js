@@ -8,7 +8,8 @@ import Home from "./components/Home";
 import SignIn from "./components/SignIn";
 import Newsletter from "./components/Newsletter";
 import FaqSection from "./components/FaqSection";
-import PrincingSection from "./components/PrincingSection";
+import PricingSection from "./components/PricingSection";
+import Accordion from "./components/Accordion";
 
 function App() {
   return (
@@ -22,10 +23,10 @@ function App() {
         <Route path="/signin" element={<SignIn />} />
         <Route path="/newsletter" element={<Newsletter />} />
         <Route path="/faq" element={<FaqSection />} />
-        <Route path="/pricing" element={<PrincingSection />} />
+        <Route path="/pricing" element={<PricingSection />} />
+        <Route path="/accordion" element={<Accordion />} />
       </Routes>
     </div>
   );
 }
-
 export default App;
