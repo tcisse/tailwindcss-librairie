@@ -13,7 +13,7 @@ export default function Home() {
       </div>
       <div className="mt-5 flex justify-center">
         <ul className="space-x-10 mx-10 text-lg font-extrabold">
-          <Link className="hover:text-blue-500" to="/navbar">
+          <Link className="hover:text-blue-500" to="/navbar1">
             NavBar
           </Link>
           <Link className="hover:text-blue-500" to="/footer">

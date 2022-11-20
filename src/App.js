@@ -1,7 +1,9 @@
 import { Routes, Route } from "react-router-dom";
-
 import Footer from "./components/Footer";
-import NavBar from "./components/NavBar3";
+import NavBar1 from "./components/NavBar1";
+import NavBar2 from "./components/NavBar2";
+import NavBar3 from "./components/NavBar3";
+import NavBar4 from "./components/NavBar4";
 import SignUp from "./components/SignUp";
 import TeamSection from "./components/TeamSection";
 import Home from "./components/Home";
@@ -16,7 +18,10 @@ function App() {
     <div className="">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/navbar3" element={<NavBar />} />
+        <Route path="/navbar1" element={<NavBar1 />} />
+        <Route path="/navbar2" element={<NavBar2 />} />
+        <Route path="/navbar3" element={<NavBar3 />} />
+        <Route path="/navbar4" element={<NavBar4 />} />
         <Route path="/SignUp" element={<SignUp />} />
         <Route path="/teamSection" element={<TeamSection />} />
         <Route path="/footer" element={<Footer />} />
