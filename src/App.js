@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import Footer from "./components/Footer";
 import Footer1 from "./components/Footer1";
 import Footer2 from "./components/Footer2";
 import Footer3 from "./components/Footer3";
@@ -29,6 +30,7 @@ function App() {
         <Route path="/navbar4" element={<NavBar4 />} />
         <Route path="/SignUp" element={<SignUp />} />
         <Route path="/teamSection" element={<TeamSection />} />
+        <Route path="/footer" element={<Footer />} />
         <Route path="/footer1" element={<Footer1 />} />
         <Route path="/footer2" element={<Footer2 />} />
         <Route path="/footer3" element={<Footer3 />} />

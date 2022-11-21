@@ -1,7 +1,5 @@
-import React from 'react'
+import React from "react";
 
 export default function Footer1() {
-  return (
-    <div>Footer1</div>
-  )
+  return <div>Footer1</div>;
 }
