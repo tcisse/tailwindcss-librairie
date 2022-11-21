@@ -11,13 +11,13 @@ export default function Home() {
           Liste de mes composants
         </span>
       </div>
-      <div className="mt-5 flex justify-center">
+      <div className="mt-5">
         <ul className="space-x-10 mx-10 text-lg font-extrabold">
-          <Link className="hover:text-blue-500" to="/navbar1">
-            NavBar
-          </Link>
           <Link className="hover:text-blue-500" to="/footer">
             Footer
+          </Link>
+          <Link className="hover:text-blue-500" to="/navbar">
+            NavBar
           </Link>
           <Link className="hover:text-blue-500" to="/signup">
             Sign Up
@@ -36,9 +36,6 @@ export default function Home() {
           </Link>
           <Link className="hover:text-blue-500" to="/pricing">
             Pricing Section
-          </Link>
-          <Link className="hover:text-blue-500" to="/accordion">
-            Accordion
           </Link>
         </ul>
       </div>
