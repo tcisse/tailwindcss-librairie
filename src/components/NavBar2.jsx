@@ -67,12 +67,12 @@ const Navbar2 = () => {
           <p className="text-white font-bold text-[25px]">Logo</p>
         </div>
 
-        <div className=" hidden lg:flex flex-row lg:gap-[35px]">
+        <div className="hidden lg:flex flex-row lg:gap-[35px]">
           <Menu />
         </div>
       </div>
 
-      <div className=" hidden lg:flex flex-end items-center lg:gap-3">
+      <div className="hidden lg:flex flex-end items-center lg:gap-3">
         <input
           type="search"
           className="h-[40px] outline-none 
