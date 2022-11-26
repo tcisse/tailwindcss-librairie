@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import './App.css';
 import Footer from "./components/Footer";
 import Footer1 from "./components/Footer1";
 import Footer2 from "./components/Footer2";
