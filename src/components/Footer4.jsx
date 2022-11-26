@@ -5,6 +5,7 @@ import {
   PhoneIcon,
   EnvelopeIcon,
 } from "@heroicons/react/24/solid";
+import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 
 export default function Footer4() {
   return (
@@ -80,7 +81,10 @@ export default function Footer4() {
                 <span>youremail@gmail.com</span>
               </li>
               <li className="flex items-center space-x-2">
-                <span>F D E</span>
+                <Link to="" className="flex space-x-2 items-center">
+                  <BsFacebook />
+                  <span>Your facebook</span>
+                </Link>
               </li>
             </ul>
           </div>
@@ -99,9 +103,15 @@ export default function Footer4() {
           </ul>
         </div>
         <div className="flex space-x-8 items-center justify-center md:space-x-4">
-          <Link to="">F</Link>
-          <Link to="">I</Link>
-          <Link to="">T</Link>
+          <Link to="">
+            <BsFacebook />
+          </Link>
+          <Link to="">
+            <BsInstagram />
+          </Link>
+          <Link to="">
+            <BsTwitter />
+          </Link>
         </div>
       </div>
     </footer>

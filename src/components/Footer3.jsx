@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 
 export default function Footer3() {
   return (
@@ -15,9 +16,15 @@ export default function Footer3() {
         </ul>
       </div>
       <div className="flex space-x-8 items-center justify-center md:space-x-4">
-        <Link to="">F</Link>
-        <Link to="">I</Link>
-        <Link to="">T</Link>
+        <Link to="">
+          <BsFacebook />
+        </Link>
+        <Link to="">
+          <BsInstagram />
+        </Link>
+        <Link to="">
+          <BsTwitter />
+        </Link>
       </div>
     </footer>
   );
