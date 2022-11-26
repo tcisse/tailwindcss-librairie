@@ -2,7 +2,7 @@ import React from "react";
 //Cissé work
 export default function NavBarC() {
   return (
-    <div className="font-raleway ">
+    <div className="font-raleway">
       {/* First Navbar */}
       <nav className="w-full bg-gray-50 px-2 sm:px-4 py-2.5 fixed top-0 left-0 border-b border-gray-200">
         <div className="flex flex-wrap justify-between items-center mx-auto">

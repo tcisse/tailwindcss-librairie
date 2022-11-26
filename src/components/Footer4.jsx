@@ -8,13 +8,13 @@ import {
 
 export default function Footer4() {
   return (
-    <footer className="w-full pt-6 bg-white shadow-md flex flex-col">
+    <footer className="w-full pt-6 bg-white shadow-md flex flex-col font-raleway">
       {/* Newsletter and  form */}
-      <div className="w-full flex flex-col px-8 items-center justify-center space-y-4 md:space-y-0 md:space-x-8 mb-6 md:flex-row">
+      <div className="w-full flex flex-col px-4 md:px-8 items-center justify-center space-y-4 md:space-y-0 md:space-x-8 mb-6 md:flex-row">
         <div className="text-[18px] font-semibold text-slate-500">
           NEWSLETTER
         </div>
-        <div className="">
+        <div className="w-full md:w-auto">
           <form
             action=""
             className="flex w-full flex-col space-y-4 md:space-y-0 md:space-x-4 md:flex-row"
@@ -43,7 +43,7 @@ export default function Footer4() {
       <hr className="w-[90%] mx-auto" />
 
       {/* Middle */}
-      <div className="w-full py-4 px-8 flex flex-col space-y-4 md:space-y-0 md:flex-row justify-center">
+      <div className="w-full py-4 px-4 md:px-8 flex flex-col space-y-4 md:space-y-0 md:flex-row justify-center">
         <div className="text-[25px] text-indigo-500 font-bold">Logo</div>
         <div className="flex flex-1 flex-col space-y-8 md:space-y-0 md:flex-row justify-evenly">
           <div className="flex flex-col space-y-2">
@@ -88,7 +88,7 @@ export default function Footer4() {
       </div>
 
       {/* Bottom */}
-      <div className="w-full py-6 bg-gray-600 text-gray-100 shadow-md px-8 flex flex-col space-y-3 md:flex-row md:space-y-0">
+      <div className="w-full py-6 bg-gray-600 text-gray-100 shadow-md px-4 md:px-8 flex flex-col space-y-3 md:flex-row md:space-y-0">
         <div className="flex items-center flex-1 justify-center">
           <ul className="flex items-center space-x-6 flex-row justify-center flex-wrap md:flex-nowrap [&>*]:mb-3 md:[&>*]:mb-0">
             <li>© 2022 My app</li>

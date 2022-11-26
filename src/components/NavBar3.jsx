@@ -32,7 +32,7 @@ export default function NavBar() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-100 font-raleway">
       <h1 className="py-3 mb-6 text-[25px] text-center">Navbar component</h1>
 
       <div className="flex flex-col w-full space-y-10">
