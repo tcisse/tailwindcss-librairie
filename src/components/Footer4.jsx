@@ -10,25 +10,27 @@ export default function Footer4() {
   return (
     <footer className="w-full pt-6 bg-white shadow-md flex flex-col">
       {/* Newsletter and  form */}
-
-      <div className="w-full flex justify-center space-x-8 mb-6">
+      <div className="w-full flex flex-col px-8 items-center justify-center space-y-4 md:space-y-0 md:space-x-8 mb-6 md:flex-row">
         <div className="text-[18px] font-semibold text-slate-500">
           NEWSLETTER
         </div>
         <div className="">
-          <form action="" className="flex space-x-4">
+          <form
+            action=""
+            className="flex w-full flex-col space-y-4 md:space-y-0 md:space-x-4 md:flex-row"
+          >
             <input
               type="text"
               name=""
               id=""
-              className="border-2 rounded-md h-[40px] px-4 min-w-[250px]"
+              className="border-2 rounded-md h-[40px] px-4 w-full md:w-auto md:min-w-[250px]"
               placeholder="Your name"
             />
             <input
               type="email"
               name=""
               id=""
-              className="border-2 rounded-md h-[40px] px-4 min-w-[250px]"
+              className="border-2 rounded-md h-[40px] px-4 w-ful md:w-autol md:min-w-[250px]"
               placeholder="Your email"
             />
             <button className="h-[40px] bg-indigo-500 text-gray-100 rounded-md px-4">
@@ -39,9 +41,11 @@ export default function Footer4() {
       </div>
 
       <hr className="w-[90%] mx-auto" />
-      <div className="w-full py-4 px-8 flex justify-center">
+
+      {/* Middle */}
+      <div className="w-full py-4 px-8 flex flex-col space-y-4 md:space-y-0 md:flex-row justify-center">
         <div className="text-[25px] text-indigo-500 font-bold">Logo</div>
-        <div className="flex flex-1 justify-evenly">
+        <div className="flex flex-1 flex-col space-y-8 md:space-y-0 md:flex-row justify-evenly">
           <div className="flex flex-col space-y-2">
             <div className="text-slate-500">PRODUCT</div>
             <ul className="font-semibold text-[18px] flex flex-col space-y-3 text-slate-700">
@@ -84,15 +88,17 @@ export default function Footer4() {
       </div>
 
       {/* Bottom */}
-      <div className="w-full flex bg-slate-600 py-4 px-8 text-gray-100">
+      <div className="w-full py-6 bg-gray-600 text-gray-100 shadow-md px-8 flex flex-col space-y-3 md:flex-row md:space-y-0">
         <div className="flex items-center flex-1 justify-center">
-          <ul className="flex items-center space-x-6 ">
-            <li>© 2022 My app , All rights reserved</li>
+          <ul className="flex items-center space-x-6 flex-row justify-center flex-wrap md:flex-nowrap [&>*]:mb-3 md:[&>*]:mb-0">
+            <li>© 2022 My app</li>
+            <li>All rights reserved</li>
             <li>About</li>
+            <li>Contact</li>
             <li>Terms & Privacy</li>
           </ul>
         </div>
-        <div className="flex space-x-4 items-center justify-center">
+        <div className="flex space-x-8 items-center justify-center md:space-x-4">
           <Link to="">F</Link>
           <Link to="">I</Link>
           <Link to="">T</Link>
