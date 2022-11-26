@@ -7,6 +7,7 @@ import Footer3 from "./components/Footer3";
 import Footer4 from "./components/Footer4";
 import Footer5 from "./components/Footer5";
 import Footer6 from "./components/Footer6";
+import NavBar from "./components/NavBar";
 import NavBar1 from "./components/NavBar1";
 import NavBar2 from "./components/NavBar2";
 import NavBar3 from "./components/NavBar3";
@@ -29,6 +30,7 @@ function App() {
         <Route path="/navbar2" element={<NavBar2 />} />
         <Route path="/navbar3" element={<NavBar3 />} />
         <Route path="/navbar4" element={<NavBar4 />} />
+        <Route path="/navbar" element={<NavBar />} />
         <Route path="/SignUp" element={<SignUp />} />
         <Route path="/teamSection" element={<TeamSection />} />
         <Route path="/footer" element={<Footer />} />
