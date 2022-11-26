@@ -61,7 +61,7 @@ export default function Footer4() {
                   <ArrowSmallRightIcon className="w-4 h-4" />
                 </span>
               </li>
-              <li>Why become our pater ?</li>
+              <li>Why become our patner ?</li>
             </ul>
           </div>
           <div className="flex flex-col space-y-2">
