@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import './App.css';
+import "./App.css";
 import Footer from "./components/Footer";
 import Footer1 from "./components/Footer1";
 import Footer2 from "./components/Footer2";
@@ -16,10 +16,17 @@ import SignUp from "./components/SignUp";
 import TeamSection from "./components/TeamSection";
 import Home from "./components/Home";
 import SignIn from "./components/SignIn";
-import Newsletter from "./components/Newsletter/index";
+// import Index from "./components/Newsletter/Index";
 import FaqSection from "./components/FaqSection";
 import PricingSection from "./components/PricingSection";
 import Accordion from "./components/Accordion";
+import {
+  Newsletter1,
+  Newsletter2,
+  Newsletter3,
+  Newsletter4,
+  Index,
+} from "./components/Newsletter";
 
 function App() {
   return (
@@ -41,10 +48,14 @@ function App() {
         <Route path="/footer5" element={<Footer5 />} />
         <Route path="/footer6" element={<Footer6 />} />
         <Route path="/signin" element={<SignIn />} />
-        <Route path="/newsletter" element={<Newsletter />} />
+        <Route path="/newsletter" element={<Index />} />
         <Route path="/faq" element={<FaqSection />} />
         <Route path="/pricing" element={<PricingSection />} />
         <Route path="/accordion" element={<Accordion />} />
+        <Route path="/newsletter1" element={<Newsletter1 />} />
+        <Route path="/newsletter2" element={<Newsletter2 />} />
+        <Route path="/newsletter3" element={<Newsletter3 />} />
+        <Route path="/newsletter4" element={<Newsletter4 />} />
       </Routes>
     </div>
   );
