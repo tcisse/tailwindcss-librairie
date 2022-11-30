@@ -16,7 +16,7 @@ import SignUp from "./components/SignUp";
 import TeamSection from "./components/TeamSection";
 import Home from "./components/Home";
 import SignIn from "./components/SignIn";
-import Newsletter from "./components/Newsletter";
+import Newsletter from "./components/Newsletter/index";
 import FaqSection from "./components/FaqSection";
 import PricingSection from "./components/PricingSection";
 import Accordion from "./components/Accordion";
