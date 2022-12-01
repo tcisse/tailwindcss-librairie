@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from '../assets/IMG_6613.JPG'
+import Logo from '../../assets/IMG_6613.JPG'
 import { AiOutlineSearch } from 'react-icons/ai'
 import { CgProfile } from 'react-icons/cg'
 import { MdOutlineAccountBalanceWallet } from 'react-icons/md'

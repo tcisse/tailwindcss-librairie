@@ -1,8 +1,8 @@
 //LibertAssogba work
 import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
-import "../styles/NavBar.css";
-import userProfil from "../assets/img/user-profil.jpg";
+import "../../styles/NavBar.css";
+import userProfil from "../../assets/img/user-profil.jpg";
 export default function NavBar() {
   const [openNavbar1, setOpenNavbar1] = useState(false);
   const [openNavbar2, setOpenNavbar2] = useState(false);
