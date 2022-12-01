@@ -12,21 +12,24 @@ import NavBar1 from "./components/NavBar1";
 import NavBar2 from "./components/NavBar2";
 import NavBar3 from "./components/NavBar3";
 import NavBar4 from "./components/NavBar4";
-import SignUp from "./components/SignUp";
+import SignUp from "./components/SignUp/SignUp";
 import TeamSection from "./components/TeamSection";
 import Home from "./components/Home";
 import SignIn from "./components/SignIn";
-// import Index from "./components/Newsletter/Index";
+import Index from "./components/Newsletter/Index";
 import FaqSection from "./components/FaqSection";
 import PricingSection from "./components/PricingSection";
 import Accordion from "./components/Accordion";
-import {
-  Newsletter1,
-  Newsletter2,
-  Newsletter3,
-  Newsletter4,
-  Index,
-} from "./components/Newsletter";
+// import {
+//   Newsletter1,
+//   Newsletter2,
+//   Newsletter3,
+//   Newsletter4,
+// } from "./components/Newsletter";
+import SignUp1 from "./components/SignUp/SignUp1";
+import SignUp2 from "./components/SignUp/SignUp2";
+import SignUp3 from "./components/SignUp/SignUp3";
+import SignUp4 from "./components/SignUp/SignUp4";
 
 function App() {
   return (
@@ -39,6 +42,10 @@ function App() {
         <Route path="/navbar4" element={<NavBar4 />} />
         <Route path="/navbar" element={<NavBar />} />
         <Route path="/SignUp" element={<SignUp />} />
+        <Route path="/signup1" element={<SignUp1 />} />
+        <Route path="/signup2" element={<SignUp2 />} />
+        <Route path="/signup3" element={<SignUp3 />} />
+        <Route path="/signup4" element={<SignUp4 />} />
         <Route path="/teamSection" element={<TeamSection />} />
         <Route path="/footer" element={<Footer />} />
         <Route path="/footer1" element={<Footer1 />} />
@@ -52,10 +59,10 @@ function App() {
         <Route path="/faq" element={<FaqSection />} />
         <Route path="/pricing" element={<PricingSection />} />
         <Route path="/accordion" element={<Accordion />} />
-        <Route path="/newsletter1" element={<Newsletter1 />} />
+        {/* <Route path="/newsletter1" element={<Newsletter1 />} />
         <Route path="/newsletter2" element={<Newsletter2 />} />
         <Route path="/newsletter3" element={<Newsletter3 />} />
-        <Route path="/newsletter4" element={<Newsletter4 />} />
+        <Route path="/newsletter4" element={<Newsletter4 />} /> */}
       </Routes>
     </div>
   );
