@@ -15,7 +15,7 @@ export default function SignUp3() {
             autoplay
           ></lottie-player>
         </div>
-        <div className="ml-10 mt-4 mx-auto lg:space-y-5 space-y-5">
+        <div className="ml-10 mt-4 lg:space-y-5 space-y-5">
           <div>
             <label for="email">Nom prénoms</label>
             <br />
