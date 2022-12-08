@@ -15,7 +15,7 @@ export default function SignUp3() {
             autoplay
           ></lottie-player>
         </div>
-        <div className="lg:space-y-5">
+        <div className="ml-10 mt-4 mx-auto lg:space-y-5 space-y-5">
           <div>
             <label for="email">Nom prénoms</label>
             <br />
@@ -42,7 +42,7 @@ export default function SignUp3() {
             <label for="email">Mot de passe</label>
             <br />
             <input
-              className="lg:w-2/3 h-10 rounded-md border-2 border-black px-2"
+              className="w-2/3 h-10 rounded-md border-2 border-black px-2"
               type="password"
               name="password"
               id="password"
@@ -60,7 +60,7 @@ export default function SignUp3() {
               placeholder="***********"
             />
           </div>
-          <div className="bg-blue-500 w-1/3 px-7 py-3 mx-8 flex text-justify rounded-md items-center">
+          <div className="bg-blue-500 mt-5 w-1/3 px-7 py-3 mx-8 flex text-justify rounded-md items-center">
             <button className="flex items-center text-center" type="submit">
               S'inscrire
             </button>
