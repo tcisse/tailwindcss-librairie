@@ -16,6 +16,11 @@ import SignUp from "./components/SignUp/SignUp";
 import TeamSection from "./components/TeamSection";
 import Home from "./components/Home";
 import SignIn from "./components/SignIn/SignIn";
+import SignIn1 from "./components/SignIn/SignIn1";
+import SignIn2 from "./components/SignIn/SignIn2";
+import SignIn3 from "./components/SignIn/SignIn3";
+import SignIn4 from "./components/SignIn/SignIn4";
+import SignIn5 from "./components/SignIn/SignIn5";
 // import Index from "./components/Newsletter/index";
 import FaqSection from "./components/FaqSection";
 import PricingSection from "./components/PricingSection";
@@ -55,6 +60,11 @@ function App() {
         <Route path="/footer5" element={<Footer5 />} />
         <Route path="/footer6" element={<Footer6 />} />
         <Route path="/signin" element={<SignIn />} />
+        <Route path="/signin1" element={<SignIn1 />} />
+        <Route path="/signin2" element={<SignIn2 />} />
+        <Route path="/signin3" element={<SignIn3 />} />
+        <Route path="/signin4" element={<SignIn4 />} />
+        <Route path="/signin5" element={<SignIn5 />} />
         {/* <Route path="/newsletter" element={<Index />} /> */}
         <Route path="/faq" element={<FaqSection />} />
         <Route path="/pricing" element={<PricingSection />} />
