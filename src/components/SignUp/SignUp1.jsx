@@ -10,7 +10,7 @@ const SignUp1 = () => {
   };
 
   return (
-        <div className='flex flex-col items-center rounded-[2px] w-[300px] lg:max-w-[400px] h-[500px] bg-slate-300 mt-10 m-auto'>
+        <div className='flex flex-col items-center rounded-[2px] w-[300px] lg:w-[400px] h-[500px] bg-slate-300 mt-10 m-auto'>
             <div className='flex flex-col items-center justify-center text-center'>
                 <span className='mt-8'> <img src={github} className='w-[35px]' alt='error' /></span>
                 <h4 className='mt-3 font-medium'>Sign Up to Github</h4>
@@ -47,11 +47,8 @@ const SignUp1 = () => {
                     </form>
                 </div>
             </div>
-          </form>
         </div>
-      </div>
-    </div>
-  );
-};
+      );
+    };
 
 export default SignUp1;
