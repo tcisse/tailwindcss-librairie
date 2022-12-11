@@ -70,7 +70,7 @@ const NavBar = () => {
           />
         )}
         {toggleMenu && (
-          <div className="-right-0 fixed top-0 bottom-0 z-30 w-full transition-all ease-in duration-500 bg-gray-800">
+          <div className="-right-0 fixed top-0 bottom-0 z-30 w-f96 transition-all ease-in duration-500 bg-gray-800">
             <RiCloseLine
               color="#fff"
               size="27"

@@ -16,7 +16,7 @@ import SignUp from "./components/SignUp/SignUp";
 import TeamSection from "./components/TeamSection";
 import Home from "./components/Home";
 import SignIn from "./components/SignIn";
-import Index from "./components/Newsletter/index";
+// import Index from "./components/Newsletter/index";
 import FaqSection from "./components/FaqSection";
 import PricingSection from "./components/PricingSection";
 import Accordion from "./components/Accordion";
@@ -55,7 +55,7 @@ function App() {
         <Route path="/footer5" element={<Footer5 />} />
         <Route path="/footer6" element={<Footer6 />} />
         <Route path="/signin" element={<SignIn />} />
-        <Route path="/newsletter" element={<Index />} />
+        {/* <Route path="/newsletter" element={<Index />} /> */}
         <Route path="/faq" element={<FaqSection />} />
         <Route path="/pricing" element={<PricingSection />} />
         <Route path="/accordion" element={<Accordion />} />

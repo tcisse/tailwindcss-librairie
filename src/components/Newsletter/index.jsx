@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function index() {
+export default function Index() {
   return (
     <div className="text-2xl pt-10 mx-5 font-raleway font-bold">
       <h1>Newletter component</h1>
