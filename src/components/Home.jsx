@@ -8,19 +8,19 @@ export default function Home() {
           TailwindCss Libraire
         </h1>
         <span className="flex justify-center text-4xl">
-          Liste de mes composants
+          Liste de quelques composants
         </span>
       </div>
-      <div className="mt-5">
-        <ul className="space-x-10 mx-10 text-lg font-extrabold">
+      <div className="mt-10 flex flex-row">
+        <ul className="space-x-10 mx-10 text-xl font-extrabold">
           <Link className="hover:text-blue-500" to="/footer">
-            Footer
+            Footer ✅
           </Link>
           <Link className="hover:text-blue-500" to="/navbar">
-            NavBar
+            NavBar ✅
           </Link>
           <Link className="hover:text-blue-500" to="/signup">
-            Sign Up
+            Sign Up ✅
           </Link>
           <Link className="hover:text-blue-500" to="/signin">
             Sign In
