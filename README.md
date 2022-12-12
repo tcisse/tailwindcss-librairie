@@ -10,6 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Example of Sign up component
 <p align="center">
 <img src="https://ideptico.sirv.com/CleanShot%202022-12-12%20at%2022.20.13%402x.png"  alt="previewexample" />
+<img src="https://ideptico.sirv.com/CleanShot%202022-12-12%20at%2022.24.04%402x.png"  alt="" />
 </p>
 
 In the project directory, you can run:
