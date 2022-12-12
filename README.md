@@ -1,12 +1,20 @@
 ## TailwindCss Libraire de composants
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Previews
+<p align="center">
+<img src="https://ideptico.sirv.com/CleanShot%202022-12-12%20at%2022.13.48%402x.png" alt="preview" />
+</p>
+
+## Example of Sign up component
+<p align="center">
+<img src="https://ideptico.sirv.com/CleanShot%202022-12-12%20at%2022.20.13%402x.png"  alt="previewexample" />
+</p>
 
 In the project directory, you can run:
-
 ### `npm start`
-CleanShot 2022-12-12 at 22.06.14@2x.png
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
