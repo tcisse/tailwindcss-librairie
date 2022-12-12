@@ -39,16 +39,16 @@ const SignIn2 = () => {
                             <div className="flex flex-row items-center cursor-pointer gap-2">
                                 {checked === true ? (
                                     <BsCheck
-                                    size={20}
-                                    className="cursor-pointer"
-                                    onClick={() => setChecked(false)}
+                                        size={20}
+                                        className="cursor-pointer"
+                                        onClick={() => setChecked(false)}
                                     />
                                 ) : (
                                     <input
-                                    size={27}
-                                    type="checkbox"
-                                    className="border-none cursor-pointer focus:rotate-45 transition duration-100"
-                                    onClick={handleChecked}
+                                        size={27}
+                                        type="checkbox"
+                                        className="border-none cursor-pointer focus:rotate-45 transition duration-100"
+                                        onClick={handleChecked}
                                     />
                                 )}
                                     Remember me
