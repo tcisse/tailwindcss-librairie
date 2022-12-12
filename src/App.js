@@ -21,16 +21,15 @@ import SignIn2 from "./components/SignIn/SignIn2";
 import SignIn3 from "./components/SignIn/SignIn3";
 import SignIn4 from "./components/SignIn/SignIn4";
 import SignIn5 from "./components/SignIn/SignIn5";
-// import Index from "./components/Newsletter/index";
 import FaqSection from "./components/FaqSection";
 import PricingSection from "./components/PricingSection";
 import Accordion from "./components/Accordion";
-// import {
-//   Newsletter1,
-//   Newsletter2,
-//   Newsletter3,
-//   Newsletter4,
-// } from "./components/Newsletter";
+import Index from "./components/Newsletter/index";
+import Newsletter1 from "./components/Newsletter/Newsletter1";
+import Newsletter2 from "./components/Newsletter/Newsletter2";
+import Newsletter3 from "./components/Newsletter/Newsletter3";
+import Newsletter4 from "./components/Newsletter/Newsletter4";
+import Newsletter5 from "./components/Newsletter/Newsletter5";
 import SignUp1 from "./components/SignUp/SignUp1";
 import SignUp2 from "./components/SignUp/SignUp2";
 import SignUp3 from "./components/SignUp/SignUp3";
@@ -65,14 +64,15 @@ function App() {
         <Route path="/signin3" element={<SignIn3 />} />
         <Route path="/signin4" element={<SignIn4 />} />
         <Route path="/signin5" element={<SignIn5 />} />
-        {/* <Route path="/newsletter" element={<Index />} /> */}
+        <Route path="/newsletter" element={<Index />} />
         <Route path="/faq" element={<FaqSection />} />
         <Route path="/pricing" element={<PricingSection />} />
         <Route path="/accordion" element={<Accordion />} />
-        {/* <Route path="/newsletter1" element={<Newsletter1 />} />
+        <Route path="/newsletter1" element={<Newsletter1 />} />
         <Route path="/newsletter2" element={<Newsletter2 />} />
         <Route path="/newsletter3" element={<Newsletter3 />} />
-        <Route path="/newsletter4" element={<Newsletter4 />} /> */}
+        <Route path="/newsletter4" element={<Newsletter4 />} />
+        <Route path="/newsletter5" element={<Newsletter5 />} />
       </Routes>
     </div>
   );
