@@ -1,19 +1,27 @@
 ## TailwindCss Libraire de composants
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Create a lot of components usable in our projects to go faster 🚀
+
+## Stack
+
+<li>TailwindCss</li>
+<li>ReactJs</li>
 
 ## Previews
+
 <p align="center">
 <img src="https://ideptico.sirv.com/CleanShot%202022-12-12%20at%2022.13.48%402x.png" alt="preview" />
 </p>
 
-## Example of Sign up component
+## Example of some components
+
 <p align="center">
-<img src="https://ideptico.sirv.com/CleanShot%202022-12-12%20at%2022.20.13%402x.png"  alt="previewexample" />
-<img src="https://ideptico.sirv.com/CleanShot%202022-12-12%20at%2022.24.04%402x.png"  alt="" />
+<img src="https://ideptico.sirv.com/CleanShot%202022-12-12%20at%2022.20.13%402x.png"  alt="previewsignup" />
+<img src="https://ideptico.sirv.com/CleanShot%202022-12-12%20at%2022.24.04%402x.png"  alt="navbarpreview" />
 </p>
 
 In the project directory, you can run:
+
 ### `npm start`
 
 Runs the app in the development mode.\
