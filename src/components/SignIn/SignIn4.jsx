@@ -3,7 +3,7 @@ import lock from "../../assets/img/lock.svg";
 
 export default function SignIn4() {
   return (
-    <div className="flex justify-center items-center mt-20 space-y-10 p-5">
+    <div className="flex justify-center items-center space-y-10 p-20">
       <form className="space-y-10" action="">
         <div className="flex justify-center">
           <img src={lock} alt="lockimage" />
