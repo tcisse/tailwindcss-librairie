@@ -18,6 +18,7 @@ Create a lot of components usable in our projects to go faster 🚀
 <li>Newsletter 🔄</li>
 <li>Pricing Section 🔄</li>
 <li>Hero section 🔄</li>
+
 ## Previews
 
 <p align="center">
