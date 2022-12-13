@@ -14,11 +14,28 @@ export default function Newsletter4() {
             </div>
           </div>
           <div>
-            <input type="email" name="" id="" placeholder="Enter your email" className="w-full py-2 px-3 rounded-md" />{" "}
+            <div className="flex space-x-1">
+              <input
+                type="email"
+                name=""
+                id=""
+                placeholder="Enter your email"
+                className="w-full py-2 px-3 rounded-md"
+              />
+              <button className="bg-white rounded-md px-2 hover:bg-blue-400">
+                <img src={news} alt="" />
+              </button>
+            </div>
             <div className="mt-3">
               <span>
-                We care about the protection of your data. Read our Privacy
-                Policy.
+                We care about the protection of your data.
+                <span className="text-yellow-200 cursor-pointer mx-1">
+                  Read
+                </span>
+                our
+                <span className="text-yellow-200 cursor-pointer mx-1">
+                  Privacy Policy.
+                </span>
               </span>
             </div>
           </div>
