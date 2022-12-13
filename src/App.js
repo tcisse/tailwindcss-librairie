@@ -34,23 +34,30 @@ import SignUp1 from "./components/SignUp/SignUp1";
 import SignUp2 from "./components/SignUp/SignUp2";
 import SignUp3 from "./components/SignUp/SignUp3";
 import SignUp4 from "./components/SignUp/SignUp4";
+import SignInOne from "./components/SignIn/SignInOne";
 
 function App() {
   return (
     <div className="">
       <Routes>
         <Route path="/" element={<Home />} />
+
+          // Navbar pages
         <Route path="/navbar1" element={<NavBar1 />} />
         <Route path="/navbar2" element={<NavBar2 />} />
         <Route path="/navbar3" element={<NavBar3 />} />
         <Route path="/navbar4" element={<NavBar4 />} />
         <Route path="/navbar" element={<NavBar />} />
+
+          // Sing up pages
         <Route path="/SignUp" element={<SignUp />} />
         <Route path="/signup1" element={<SignUp1 />} />
         <Route path="/signup2" element={<SignUp2 />} />
         <Route path="/signup3" element={<SignUp3 />} />
         <Route path="/signup4" element={<SignUp4 />} />
         <Route path="/teamSection" element={<TeamSection />} />
+
+          // Footer pages
         <Route path="/footer" element={<Footer />} />
         <Route path="/footer1" element={<Footer1 />} />
         <Route path="/footer2" element={<Footer2 />} />
@@ -58,21 +65,32 @@ function App() {
         <Route path="/footer4" element={<Footer4 />} />
         <Route path="/footer5" element={<Footer5 />} />
         <Route path="/footer6" element={<Footer6 />} />
-        <Route path="/signin" element={<SignIn />} />
-        <Route path="/signin1" element={<SignIn1 />} />
-        <Route path="/signin2" element={<SignIn2 />} />
-        <Route path="/signin3" element={<SignIn3 />} />
-        <Route path="/signin4" element={<SignIn4 />} />
-        <Route path="/signin5" element={<SignIn5 />} />
-        <Route path="/newsletter" element={<Index />} />
+
+          // Sign in pages
+          <Route path="/signin" element={<SignIn />} />
+          <Route path="/signin1" element={<SignIn1 />} />
+          <Route path="/signin2" element={<SignIn2 />} />
+          <Route path="/signin3" element={<SignIn3 />} />
+          <Route path="/signin4" element={<SignIn4 />} />
+          <Route path="/signin5" element={<SignIn5 />} />
+          <Route path="/sign-up-one" element={<SignInOne />} />
+
+          // Newsletter pages
+          <Route path="/newsletter" element={<Index />} />
+          <Route path="/newsletter1" element={<Newsletter1 />} />
+          <Route path="/newsletter2" element={<Newsletter2 />} />
+          <Route path="/newsletter3" element={<Newsletter3 />} />
+          <Route path="/newsletter4" element={<Newsletter4 />} />
+          <Route path="/newsletter5" element={<Newsletter5 />} />
+
+          // FAQ pages
         <Route path="/faq" element={<FaqSection />} />
+
+          // Pricing pages
         <Route path="/pricing" element={<PricingSection />} />
+
+          // Accordion pages
         <Route path="/accordion" element={<Accordion />} />
-        <Route path="/newsletter1" element={<Newsletter1 />} />
-        <Route path="/newsletter2" element={<Newsletter2 />} />
-        <Route path="/newsletter3" element={<Newsletter3 />} />
-        <Route path="/newsletter4" element={<Newsletter4 />} />
-        <Route path="/newsletter5" element={<Newsletter5 />} />
       </Routes>
     </div>
   );
