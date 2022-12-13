@@ -7,6 +7,17 @@ Create a lot of components usable in our projects to go faster 🚀
 <li>TailwindCss</li>
 <li>ReactJs</li>
 
+## Components list
+
+<li>Footer ✅</li>
+<li>Navbar ✅</li>
+<li>Sign Up ✅</li>
+<li>Sign In ✅</li>
+<li>Team Section</li>
+<li>Faq Section 🔄</li>
+<li>Newsletter 🔄</li>
+<li>Pricing Section 🔄</li>
+<li>Hero section 🔄</li>
 ## Previews
 
 <p align="center">
