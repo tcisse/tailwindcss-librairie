@@ -3,8 +3,8 @@ import news from "../../assets/img/news.svg";
 
 export default function Newsletter4() {
   return (
-    <section className="lg:mx-20 lg:p-20">
-      <div className="bg-black w-full text-white rounded-md lg:p-20 p-10">
+    <section className="lg:mx-20 mx-5 lg:p-20 lgm:mt-0 mt-10 ">
+      <div className="bg-black text-white rounded-md lg:p-20 p-10">
         <div className="lg:flex items-center lg:mx-5">
           <div>
             <strong className="text-3xl">Sign up for our newsletter</strong>
@@ -14,7 +14,7 @@ export default function Newsletter4() {
             </div>
           </div>
           <div>
-            <div className="flex space-x-1">
+            <div className="flex space-x-1 lg:mt-0 mt-10">
               <input
                 type="email"
                 name=""
