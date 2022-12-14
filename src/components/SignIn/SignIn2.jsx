@@ -4,14 +4,14 @@ import { AiTwotoneLock } from "react-icons/ai";
 import { FaGoogle, FaFacebookF } from "react-icons/fa";
 
 const SignIn2 = () => {
-  const [checked, setChecked] = useState(false);
+    const [checked, setChecked] = useState(false);
 
-  const handleChecked = () => {
-    setChecked(!checked);
-  };
+    const handleChecked = () => {
+        setChecked(!checked);
+    };
 
   return (
-    <div className="flex flex-col items-center rounded-[2px] w-[300px] lg:w-[400px] h-[450px] bg-white shadow-2xl shadow-slate-900 mt-10 m-auto">
+    <div className="flex flex-col items-center rounded-[2px] w-[300px] lg:w-[400px] h-[400px] bg-white shadow-2xl shadow-slate-900 mt-10 m-auto">
       <div className="flex flex-col items-center justify-center text-center mt-2">
         <h3 className="mt-3 font-bold text-xl">Sign In</h3>
       </div>
@@ -63,25 +63,15 @@ const SignIn2 = () => {
                 Log In
               </button>
             </div>
-            <div className="flex flex-row gap-4 justify-center mt-6">
-                <button className="flex items-center justify-center cursor-pointer bg-black text-white h-[40px] w-[50px] rounded-[5px]  ">
-                    <FaFacebookF />
-                </button>
-                <button className="flex items-center justify-center cursor-pointer bg-black text-white h-[40px] w-[50px] rounded-[5px]  ">
-                    <FaGoogle />
-                </button>
-            </div>
             <div className="flex items-center justify-center gap-2 mt-8">
               Don't have an account ?
-              <a href="/signup1" className="text-[#2cabe3]">
+              <a href="/" className="text-[#2cabe3]">
                 Sign Up
               </a>
             </div>
           </form>
         </div>
-      </div>
-    </div>
-  );
+    );
 };
 
 export default SignIn2;
