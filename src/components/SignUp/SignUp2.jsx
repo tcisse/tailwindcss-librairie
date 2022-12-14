@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { Link } from "react-router-dom";
+
 import bmw_logo from "../../../src/assets/img/logo_bmw.png";
 
 export default function SignUp2() {
