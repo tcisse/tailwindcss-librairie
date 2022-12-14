@@ -21,7 +21,7 @@ const SignIn2 = () => {
             <div className="flex mb-3">
               <input
                 type="text"
-                className="w-[250px] lg:w-[350px] h-[50px] font-[400] rounded-[2px] border-b focus:border-gray-500 outline-none p-1"
+                className="w-[250px] lg:w-[350px] h-[50px] font-[400] rounded-[2px] border-0 border-b-2 border-gray-200 focus:ring-0 focus:border-gray-500 outline-none p-1"
                 placeholder="Username"
                 required
               />
@@ -29,7 +29,7 @@ const SignIn2 = () => {
             <div className="flex mb-3">
               <input
                 type="password"
-                className="w-[250px] lg:w-[350px] h-[50px] font-[400] border-b rounded-[2px] focus:border-gray-500 outline-none p-1"
+                className="w-[250px] lg:w-[350px] h-[50px] font-[400] rounded-[2px] border-0 border-b-2 border-gray-200 focus:ring-0 focus:border-gray-500 outline-none p-1"
                 placeholder="Password"
                 required
               />
