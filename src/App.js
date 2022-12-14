@@ -73,7 +73,7 @@ function App() {
           <Route path="/signin3" element={<SignIn3 />} />
           <Route path="/signin4" element={<SignIn4 />} />
           <Route path="/signin5" element={<SignIn5 />} />
-          <Route path="/sign-up-one" element={<SignInOne />} />
+          <Route path="/sign-in-one" element={<SignInOne />} />
 
           // Newsletter pages
           <Route path="/newsletter" element={<Index />} />

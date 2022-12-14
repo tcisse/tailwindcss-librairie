@@ -1,18 +1,33 @@
-import {useMemo} from "react";
+import {useMemo, useState} from "react";
 import { FcGoogle } from "react-icons/fc";
 import { RiFacebookCircleFill } from "react-icons/ri";
+import { HiBeaker, HiEye, HiEyeSlash } from "react-icons/hi2";
 
 const Input = ({id = "", type = "text", label = "", placeholder = ""}) => {
+    const [show, setShow] = useState(false);
+
     return (
         <>
             <label htmlFor={id} className="text-sm text-gray-700 font-semibold">{label}</label>
 
-            <input
-                id={id}
-                type={type}
-                className="transition-all duration-300 mt-2 py-2.5 px-4 w-full border-gray-300 rounded-md text-sm placeholder-gray-400 focus:ring focus:border-indigo-500 focus:ring-indigo-500/20"
-                placeholder={placeholder}
-            />
+            <div className="relative">
+                <input
+                    id={id}
+                    type={type === "password" ? (show ? "text" : "password") : type}
+                    className={`transition-all duration-300 mt-2 py-2.5 px-4 w-full border-gray-300 rounded-md text-sm placeholder-gray-400 focus:ring focus:border-indigo-500 focus:ring-indigo-500/20 ${type === "password" ? " pr-10" : ""}`}
+                    placeholder={placeholder}
+                />
+
+                {type === "password" && (
+                    <>
+                        {show ? (
+                            <HiEye onClick={() => setShow(!show)} className="cursor-pointer right-3 top-[1.2rem] text-gray-300 h-5 w-5 absolute"/>
+                        ) : (
+                            <HiEyeSlash onClick={() => setShow(!show)} className="cursor-pointer right-3 top-[1.2rem] text-gray-300 h-5 w-5 absolute"/>
+                        )}
+                    </>
+                )}
+            </div>
         </>
     );
 };
@@ -93,16 +108,10 @@ const SecondaryButton = ({type = "button", children, as = "button", href = "#"})
     );
 };
 
-const BeakerIcon = ({className = ""}) => {
-    return (
-        <svg className={className} fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M7 2a1 1 0 00-.707 1.707L7 4.414v3.758a1 1 0 01-.293.707l-4 4C.817 14.769 2.156 18 4.828 18h10.343c2.673 0 4.012-3.231 2.122-5.121l-4-4A1 1 0 0113 8.172V4.414l.707-.707A1 1 0 0013 2H7zm2 6.172V4h2v4.172a3 3 0 00.879 2.12l1.027 1.028a4 4 0 00-2.171.102l-.47.156a4 4 0 01-2.53 0l-.563-.187a1.993 1.993 0 00-.114-.035l1.063-1.063A3 3 0 009 8.172z" clipRule="evenodd" /></svg>
-    );
-};
-
 const SignInOne = () => {
     return (
         <div className="flex text-gray-800 p-4 md:py-6 md:px-32 lg:p-0">
-            <div className="flex flex-col-reverse lg:flex-row w-screen lg:min-h-screen border shadow-sm rounded-lg overflow-hidden">
+            <div className="flex flex-col-reverse lg:flex-row w-screen lg:min-h-screen border shadow-sm rounded-lg overflow-hidden lg:border-none lg:shadow-none lg:rounded-none lg:overflow-auto">
                 <div className="flex flex-col justify-between text-white lg:min-h-screen w-full lg:w-7/12 xl:w-3/5 bg-[#111827]">
                     <img
                         className="w-8/12 h-auto"
@@ -112,7 +121,7 @@ const SignInOne = () => {
 
                     <div className="space-y-8 p-9">
                         <a href="#login" className="flex items-center space-x-3">
-                            <BeakerIcon className="w-9 h-9 md:w-12 md:h-12 text-indigo-600"/>
+                            <HiBeaker className="w-9 h-9 md:w-12 md:h-12 text-indigo-600"/>
                             <div>
                                 <p className="inline text-xl md:text-2xl uppercase font-bold leading-[0.5rem]">Ato<span className="font-[300]">mique</span></p>
                                 <div className="flex items-center space-x-0.5 leading-[0.5rem]">
