@@ -38,6 +38,7 @@ import TeamSection from "./components/TeamSection";
 import { ResetPasswordOne } from "./exports/ResetPassword";
 import { SignInOne } from "./exports/SignIn";
 import { SignUpOne } from "./exports/SignUp";
+import { UpdatePasswordOne } from "./exports/UpdatePassword";
 
 function App() {
     return (
@@ -83,6 +84,9 @@ function App() {
 
                 {/*Reset password pages*/}
                 <Route path="/reset-password-one" element={<ResetPasswordOne />} />
+
+                {/*Update password page*/}
+                <Route path="/update-password-one" element={<UpdatePasswordOne />} />
 
                 {/*Newsletter pages*/}
                 <Route path="/newsletter" element={<Index />} />
