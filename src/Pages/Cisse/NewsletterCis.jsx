@@ -1,4 +1,3 @@
-import React from "react";
 import news from "../../assets/img/news.svg";
 
 export default function Newsletter4() {

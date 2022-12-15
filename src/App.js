@@ -8,8 +8,6 @@ import Footer1 from "./components/Footer/Footer1";
 import Footer2 from "./components/Footer/Footer2";
 import Footer3 from "./components/Footer/Footer3";
 import Footer4 from "./components/Footer/Footer4";
-import Footer5 from "./components/Footer/Footer5";
-import Footer6 from "./components/Footer/Footer6";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar/NavBar";
 import NavBar1 from "./components/NavBar/NavBar1";
@@ -20,22 +18,24 @@ import Index from "./components/Newsletter/index";
 import Newsletter1 from "./components/Newsletter/Newsletter1";
 import Newsletter2 from "./components/Newsletter/Newsletter2";
 import Newsletter3 from "./components/Newsletter/Newsletter3";
-import Newsletter4 from "./components/Newsletter/Newsletter4";
 import Newsletter5 from "./components/Newsletter/Newsletter5";
 import PricingSection from "./components/PricingSection";
 import SignIn from "./components/SignIn/SignIn";
 import SignIn1 from "./components/SignIn/SignIn1";
 import SignIn2 from "./components/SignIn/SignIn2";
 import SignIn3 from "./components/SignIn/SignIn3";
-import SignIn4 from "./components/SignIn/SignIn4";
 import SignIn5 from "./components/SignIn/SignIn5";
 import SignInOne from "./components/SignIn/SignInOne";
 import SignUp from "./components/SignUp/SignUp";
 import SignUp1 from "./components/SignUp/SignUp1";
 import SignUp2 from "./components/SignUp/SignUp2";
-import SignUp3 from "./components/SignUp/SignUp3";
 import SignUp4 from "./components/SignUp/SignUp4";
 import TeamSection from "./components/TeamSection";
+import Footer6 from "./Pages/Cisse/Footer6";
+import FooterCis from "./Pages/Cisse/FooterCis";
+import Newsletter4 from "./Pages/Cisse/NewsletterCis";
+import SignInCis from "./Pages/Cisse/SignInCis";
+import SignUpCis from "./Pages/Cisse/SignUpCis";
 
 function App() {
     return (
@@ -54,7 +54,7 @@ function App() {
                 <Route path="/SignUp" element={<SignUp />} />
                 <Route path="/signup1" element={<SignUp1 />} />
                 <Route path="/signup2" element={<SignUp2 />} />
-                <Route path="/signup3" element={<SignUp3 />} />
+                <Route path="/signupcis" element={<SignUpCis />} />
                 <Route path="/signup4" element={<SignUp4 />} />
                 <Route path="/teamSection" element={<TeamSection />} />
 
@@ -64,7 +64,7 @@ function App() {
                 <Route path="/footer2" element={<Footer2 />} />
                 <Route path="/footer3" element={<Footer3 />} />
                 <Route path="/footer4" element={<Footer4 />} />
-                <Route path="/footer5" element={<Footer5 />} />
+                <Route path="/footer5" element={<FooterCis />} />
                 <Route path="/footer6" element={<Footer6 />} />
 
                 {/*Sign in pages*/}
@@ -72,7 +72,7 @@ function App() {
                 <Route path="/signin1" element={<SignIn1 />} />
                 <Route path="/signin2" element={<SignIn2 />} />
                 <Route path="/signin3" element={<SignIn3 />} />
-                <Route path="/signin4" element={<SignIn4 />} />
+                <Route path="/signincis" element={<SignInCis />} />
                 <Route path="/signin5" element={<SignIn5 />} />
                 <Route path="/sign-in-one" element={<SignInOne />} />
 

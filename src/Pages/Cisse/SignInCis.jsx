@@ -1,4 +1,3 @@
-import React from "react";
 import lock from "../../assets/img/lock.svg";
 
 export default function SignIn4() {
@@ -38,7 +37,7 @@ export default function SignIn4() {
                 </div>
                 <div className="space-x-7 text-blue-600 cursor-pointer">
                     <span>Forgot password ?</span>
-                    <span>Don't have account ? Sign Up</span>
+                    <span>D'ont have account ? Sign Up</span>
                 </div>
             </form>
         </div>
