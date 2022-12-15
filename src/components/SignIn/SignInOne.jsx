@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { FcGoogle } from "react-icons/fc";
-import { RiFacebookCircleFill } from "react-icons/ri";
 import { HiBeaker, HiEye, HiEyeSlash } from "react-icons/hi2";
+import { RiFacebookCircleFill } from "react-icons/ri";
 
 const Input = ({ id = "", type = "text", label = "", placeholder = "" }) => {
     const [show, setShow] = useState(false);
@@ -59,7 +59,7 @@ const Link = ({ href = "", children }) => {
     return (
         <a
             href={href}
-            className={`transition-all duration-300 text-sm text-indigo-600 hover:text-indigo-700`}
+            className={"transition-all duration-300 text-sm text-indigo-600 hover:text-indigo-700"}
         >
             {children}
         </a>
@@ -80,7 +80,7 @@ const PrimaryButton = ({ type = "button", children, as = "button", href = "#" })
         }
 
         return attributes;
-    }, [as]);
+    }, [as, href, type]);
 
     return (
         <Tag
@@ -106,7 +106,7 @@ const SecondaryButton = ({ type = "button", children, as = "button", href = "#" 
         }
 
         return attributes;
-    }, [as]);
+    }, [as, href, type]);
 
     return (
         <Tag
