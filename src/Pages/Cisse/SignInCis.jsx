@@ -1,8 +1,6 @@
-import React from "react";
-
 import lock from "../../assets/img/lock.svg";
 
-export default function SignIn4() {
+export default function SignInCis() {
     return (
         <div className="flex justify-center items-center space-y-10 p-20">
             <form className="space-y-10" action="">
@@ -39,7 +37,7 @@ export default function SignIn4() {
                 </div>
                 <div className="space-x-7 text-blue-600 cursor-pointer">
                     <span>Forgot password ?</span>
-                    <span>Don't have account ? Sign Up</span>
+                    <span>D'ont have account ? Sign Up</span>
                 </div>
             </form>
         </div>
