@@ -27,7 +27,6 @@ import SignIn1 from "./components/SignIn/SignIn1";
 import SignIn2 from "./components/SignIn/SignIn2";
 import SignIn3 from "./components/SignIn/SignIn3";
 import SignIn5 from "./components/SignIn/SignIn5";
-import SignInOne from "./components/SignIn/SignInOne";
 import SignUp from "./components/SignUp/SignUp";
 import SignUp1 from "./components/SignUp/SignUp1";
 import SignUp2 from "./components/SignUp/SignUp2";
