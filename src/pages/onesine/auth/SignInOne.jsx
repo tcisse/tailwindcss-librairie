@@ -41,7 +41,7 @@ const SignInOne = () => {
                 <div className="flex items-center justify-between">
                     <Checkbox id="remember" label="Remember Me" />
 
-                    <Link href="#forgot-password">Forgot Password?</Link>
+                    <Link href="/reset-password-one">Forgot Password?</Link>
                 </div>
 
                 <PrimaryButton>Login to account</PrimaryButton>

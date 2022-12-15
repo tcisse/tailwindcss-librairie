@@ -35,6 +35,7 @@ import SignUp2 from "./components/SignUp/SignUp2";
 import SignUp3 from "./components/SignUp/SignUp3";
 import SignUp4 from "./components/SignUp/SignUp4";
 import TeamSection from "./components/TeamSection";
+import { ResetPasswordOne } from "./exports/ResetPassword";
 import { SignInOne } from "./exports/SignIn";
 import { SignUpOne } from "./exports/SignUp";
 
@@ -79,6 +80,9 @@ function App() {
                 <Route path="/signin4" element={<SignIn4 />} />
                 <Route path="/signin5" element={<SignIn5 />} />
                 <Route path="/sign-in-one" element={<SignInOne />} />
+
+                {/*Reset password pages*/}
+                <Route path="/reset-password-one" element={<ResetPasswordOne />} />
 
                 {/*Newsletter pages*/}
                 <Route path="/newsletter" element={<Index />} />
