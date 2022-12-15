@@ -35,6 +35,7 @@ import SignUp2 from "./components/SignUp/SignUp2";
 import SignUp3 from "./components/SignUp/SignUp3";
 import SignUp4 from "./components/SignUp/SignUp4";
 import TeamSection from "./components/TeamSection";
+import { NewsletterOne } from "./exports/Newslatter";
 import { ResetPasswordOne } from "./exports/ResetPassword";
 import { SignInOne } from "./exports/SignIn";
 import { SignUpOne } from "./exports/SignUp";
@@ -95,6 +96,7 @@ function App() {
                 <Route path="/newsletter3" element={<Newsletter3 />} />
                 <Route path="/newsletter4" element={<Newsletter4 />} />
                 <Route path="/newsletter5" element={<Newsletter5 />} />
+                <Route path="/newsletter-one" element={<NewsletterOne />} />
 
                 {/*FAQ pages*/}
                 <Route path="/faq" element={<FaqSection />} />
