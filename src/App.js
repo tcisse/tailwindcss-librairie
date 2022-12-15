@@ -29,15 +29,14 @@ import SignUp from "./components/SignUp/SignUp";
 import SignUp2 from "./components/SignUp/SignUp2";
 import SignUp4 from "./components/SignUp/SignUp4";
 import TeamSection from "./components/TeamSection";
-import { NewsletterO } from "./exports/Newsletter";
 import { NewsletterOne } from "./exports/Newslatter";
+import { NewsletterO } from "./exports/Newsletter";
 import { ResetPasswordOne, ResetPasswordO } from "./exports/ResetPassword";
 import { SignInOne, SignInO } from "./exports/SignIn";
-import SignInCis from "./Pages/Cisse/SignInCis";
-import SignUpCis from "./Pages/Cisse/SignUpCis";
 import { SignUpOne, SignUpO } from "./exports/SignUp";
 import { UpdatePasswordOne, UpdatePasswordO } from "./exports/UpdatePassword";
-
+import SignInCis from "./Pages/Cisse/SignInCis";
+import SignUpCis from "./Pages/Cisse/SignUpCis";
 
 function App() {
     return (
