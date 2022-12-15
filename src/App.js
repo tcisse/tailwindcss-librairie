@@ -2,6 +2,8 @@ import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import Accordion from "./components/Accordion";
+import FooterCis from "./components/Cisse/FooterCis";
+import Newsletter4 from "./components/Cisse/NewsletterCis";
 import FaqSection from "./components/FaqSection";
 import Footer from "./components/Footer/Footer";
 import Footer1 from "./components/Footer/Footer1";
@@ -31,9 +33,6 @@ import SignUp1 from "./components/SignUp/SignUp1";
 import SignUp2 from "./components/SignUp/SignUp2";
 import SignUp4 from "./components/SignUp/SignUp4";
 import TeamSection from "./components/TeamSection";
-import Footer6 from "./Pages/Cisse/Footer6";
-import FooterCis from "./Pages/Cisse/FooterCis";
-import Newsletter4 from "./Pages/Cisse/NewsletterCis";
 import SignInCis from "./Pages/Cisse/SignInCis";
 import SignUpCis from "./Pages/Cisse/SignUpCis";
 
@@ -65,7 +64,6 @@ function App() {
                 <Route path="/footer3" element={<Footer3 />} />
                 <Route path="/footer4" element={<Footer4 />} />
                 <Route path="/footer5" element={<FooterCis />} />
-                <Route path="/footer6" element={<Footer6 />} />
 
                 {/*Sign in pages*/}
                 <Route path="/signin" element={<SignIn />} />

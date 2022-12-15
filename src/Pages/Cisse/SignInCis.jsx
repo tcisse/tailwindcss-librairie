@@ -1,6 +1,6 @@
 import lock from "../../assets/img/lock.svg";
 
-export default function SignIn4() {
+export default function SignInCis() {
     return (
         <div className="flex justify-center items-center space-y-10 p-20">
             <form className="space-y-10" action="">
