@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { BsCheck } from "react-icons/bs";
 import { AiTwotoneLock } from "react-icons/ai";
+import { BsCheck } from "react-icons/bs";
 
 const SignIn2 = () => {
     const [checked, setChecked] = useState(false);
