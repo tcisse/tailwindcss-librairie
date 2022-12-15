@@ -10,21 +10,30 @@ import {
 } from "../../../components/onesine/utils";
 import AuthLayout from "../../../layouts/onesine/AuthLayout";
 
-const SignInOne = () => {
+const SignUpOne = () => {
     return (
         <AuthLayout
             title={
                 <>
-                    Welcome back to <br /> our community
+                    Welcome to <br /> our community
                 </>
             }
         >
-            <h3 className="text-center text-xl font-semibold text-gray-700">Login to Account</h3>
+            <h3 className="text-center text-xl font-semibold text-gray-700">Create New Account</h3>
             <p className="text-center text-sm mt-2 mb-10">
-                Please sign-in to your account and start the adventure.
+                Use your remail email continue with Nioboard (it's free)!
             </p>
 
             <form className="space-y-5">
+                <div>
+                    <Input
+                        label={"Username"}
+                        id="username"
+                        type="text"
+                        placeholder="Enter username"
+                    />
+                </div>
+
                 <div>
                     <Input label={"Email"} id="email" type="email" placeholder="Enter email" />
                 </div>
@@ -38,13 +47,11 @@ const SignInOne = () => {
                     />
                 </div>
 
-                <div className="flex items-center justify-between">
-                    <Checkbox id="remember" label="Remember Me" />
-
-                    <Link href="#forgot-password">Forgot Password?</Link>
+                <div>
+                    <Checkbox id="remember" label="I agree to privacy policy & terms" />
                 </div>
 
-                <PrimaryButton>Login to account</PrimaryButton>
+                <PrimaryButton>Sign up</PrimaryButton>
 
                 <div className="flex items-center justify-center space-x-3">
                     <hr className="w-12" />
@@ -71,11 +78,11 @@ const SignInOne = () => {
                 </div>
 
                 <p className="text-sm text-center">
-                    Don't have an account? <Link href="/sign-up-one">Register</Link>
+                    Already have an account? <Link href="/sign-in-one">Login</Link>
                 </p>
             </form>
         </AuthLayout>
     );
 };
 
-export default SignInOne;
+export default SignUpOne;

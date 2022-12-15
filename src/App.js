@@ -36,6 +36,7 @@ import SignUp3 from "./components/SignUp/SignUp3";
 import SignUp4 from "./components/SignUp/SignUp4";
 import TeamSection from "./components/TeamSection";
 import { SignInOne } from "./exports/SignIn";
+import { SignUpOne } from "./exports/SignUp";
 
 function App() {
     return (
@@ -56,6 +57,9 @@ function App() {
                 <Route path="/signup2" element={<SignUp2 />} />
                 <Route path="/signup3" element={<SignUp3 />} />
                 <Route path="/signup4" element={<SignUp4 />} />
+                <Route path="/sign-up-one" element={<SignUpOne />} />
+
+                {/*Theme section page*/}
                 <Route path="/teamSection" element={<TeamSection />} />
 
                 {/*Footer pages*/}
