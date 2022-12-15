@@ -1,12 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: "class",
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  theme: {
-    extend: {},
-    fontFamily: {
-      raleway: ["Raleway"],
+    darkMode: "class",
+    content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+    theme: {
+        extend: {},
+        fontFamily: {
+            raleway: ["Raleway"]
+        }
     },
-  },
-  plugins: [],
+    plugins: [require("@tailwindcss/forms")]
 };
