@@ -5,11 +5,23 @@
 
 @layer base {
     .newsletter-one-body {
-        background: linear-gradient(to bottom, white 0%, white 60%, theme(colors.violet.500) 60%, theme(colors.violet.500) 100%);
+        background: linear-gradient(
+            to bottom,
+            white 0%,
+            white 60%,
+            theme(colors.violet.500) 60%,
+            theme(colors.violet.500) 100%
+        );
     }
     @media screen(lg) {
         .newsletter-one-body {
-            background: linear-gradient(to right, white 0%, white 60%, theme(colors.violet.500) 60%, theme(colors.violet.500) 100%);
+            background: linear-gradient(
+                to right,
+                white 0%,
+                white 60%,
+                theme(colors.violet.500) 60%,
+                theme(colors.violet.500) 100%
+            );
         }
     }
 }
