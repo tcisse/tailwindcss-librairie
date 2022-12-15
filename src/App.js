@@ -2,14 +2,14 @@ import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import Accordion from "./components/Accordion";
+import FooterCis from "./components/Cisse/FooterCis";
+import Newsletter4 from "./components/Cisse/NewsletterCis";
 import FaqSection from "./components/FaqSection";
 import Footer from "./components/Footer/Footer";
 import Footer1 from "./components/Footer/Footer1";
 import Footer2 from "./components/Footer/Footer2";
 import Footer3 from "./components/Footer/Footer3";
 import Footer4 from "./components/Footer/Footer4";
-import Footer5 from "./components/Footer/Footer5";
-import Footer6 from "./components/Footer/Footer6";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar/NavBar";
 import NavBar1 from "./components/NavBar/NavBar1";
@@ -19,24 +19,25 @@ import NavBar4 from "./components/NavBar/NavBar4";
 import Index from "./components/Newsletter/index";
 import Newsletter1 from "./components/Newsletter/Newsletter1";
 import Newsletter3 from "./components/Newsletter/Newsletter3";
-import Newsletter4 from "./components/Newsletter/Newsletter4";
 import Newsletter5 from "./components/Newsletter/Newsletter5";
 import PricingSection from "./components/PricingSection";
 import SignIn from "./components/SignIn/SignIn";
 import SignIn1 from "./components/SignIn/SignIn1";
 import SignIn3 from "./components/SignIn/SignIn3";
-import SignIn4 from "./components/SignIn/SignIn4";
 import SignIn5 from "./components/SignIn/SignIn5";
 import SignUp from "./components/SignUp/SignUp";
 import SignUp2 from "./components/SignUp/SignUp2";
-import SignUp3 from "./components/SignUp/SignUp3";
 import SignUp4 from "./components/SignUp/SignUp4";
 import TeamSection from "./components/TeamSection";
 import { NewsletterO } from "./exports/Newsletter";
+import { NewsletterOne } from "./exports/Newslatter";
 import { ResetPasswordOne, ResetPasswordO } from "./exports/ResetPassword";
 import { SignInOne, SignInO } from "./exports/SignIn";
+import SignInCis from "./Pages/Cisse/SignInCis";
+import SignUpCis from "./Pages/Cisse/SignUpCis";
 import { SignUpOne, SignUpO } from "./exports/SignUp";
 import { UpdatePasswordOne, UpdatePasswordO } from "./exports/UpdatePassword";
+
 
 function App() {
     return (
@@ -55,7 +56,7 @@ function App() {
                 <Route path="/SignUp" element={<SignUp />} />
                 <Route path="/signup1" element={<SignUpO />} />
                 <Route path="/signup2" element={<SignUp2 />} />
-                <Route path="/signup3" element={<SignUp3 />} />
+                <Route path="/signupcis" element={<SignUpCis />} />
                 <Route path="/signup4" element={<SignUp4 />} />
                 <Route path="/sign-up-one" element={<SignUpOne />} />
 
@@ -68,15 +69,14 @@ function App() {
                 <Route path="/footer2" element={<Footer2 />} />
                 <Route path="/footer3" element={<Footer3 />} />
                 <Route path="/footer4" element={<Footer4 />} />
-                <Route path="/footer5" element={<Footer5 />} />
-                <Route path="/footer6" element={<Footer6 />} />
+                <Route path="/footer5" element={<FooterCis />} />
 
                 {/*Sign in pages*/}
                 <Route path="/signin" element={<SignIn />} />
                 <Route path="/signin1" element={<SignIn1 />} />
                 <Route path="/signin2" element={<SignInO />} />
                 <Route path="/signin3" element={<SignIn3 />} />
-                <Route path="/signin4" element={<SignIn4 />} />
+                <Route path="/signincis" element={<SignInCis />} />
                 <Route path="/signin5" element={<SignIn5 />} />
                 <Route path="/sign-in-one" element={<SignInOne />} />
 
@@ -95,6 +95,7 @@ function App() {
                 <Route path="/newsletter3" element={<Newsletter3 />} />
                 <Route path="/newsletter4" element={<Newsletter4 />} />
                 <Route path="/newsletter5" element={<Newsletter5 />} />
+                <Route path="/newsletter-one" element={<NewsletterOne />} />
 
                 {/*FAQ pages*/}
                 <Route path="/faq" element={<FaqSection />} />

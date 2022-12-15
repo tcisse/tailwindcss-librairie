@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function SignUp3() {
     return (
         <div className="flex justify-center mt-20 items-center">
