@@ -32,6 +32,7 @@ import SignUp1 from "./components/SignUp/SignUp1";
 import SignUp2 from "./components/SignUp/SignUp2";
 import SignUp4 from "./components/SignUp/SignUp4";
 import TeamSection from "./components/TeamSection";
+import { SignInOne } from "./exports/SignIn";
 import SignInCis from "./Pages/Cisse/SignInCis";
 import SignUpCis from "./Pages/Cisse/SignUpCis";
 
