@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { github } from "../../assets/img/exports";
 import { BsCheck } from "react-icons/bs";
+
+import { github } from "../../assets/img/exports";
 
 const SignUp1 = () => {
     const [checked, setChecked] = useState(false);

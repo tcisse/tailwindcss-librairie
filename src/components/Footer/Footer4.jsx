@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import { ArrowSmallRightIcon, PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
+import React from "react";
 import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 export default function Footer4() {
     return (
