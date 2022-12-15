@@ -2,8 +2,11 @@ import React, { useState } from "react";
 import { AiTwotoneLock } from "react-icons/ai";
 import { BsCheck } from "react-icons/bs";
 import { FaGoogle, FaFacebookF } from "react-icons/fa";
+import { Outlet, useNavigate } from "react-router-dom";
 
 const SignIn2 = () => {
+    const navigate = useNavigate();
+
     const [checked, setChecked] = useState(false);
 
     const handleChecked = () => {
@@ -55,7 +58,12 @@ const SignIn2 = () => {
                             </div>
                             <div className="flex flex-row items-center cursor-pointer gap-2">
                                 <AiTwotoneLock />
-                                <span className="hover:text-[#2cabe3]">Forgot Pwd ?</span>
+                                <span
+                                    className="hover:text-[#2cabe3]"
+                                    onClick={() => navigate("/signin2")}
+                                >
+                                    Forgot Pwd ?
+                                </span>
                             </div>
                         </div>
                         <div className="flex items-stretch">
@@ -81,6 +89,8 @@ const SignIn2 = () => {
                     </form>
                 </div>
             </div>
+
+            <Outlet />
         </div>
     );
 };
