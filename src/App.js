@@ -29,13 +29,13 @@ import SignIn2 from "./components/SignIn/SignIn2";
 import SignIn3 from "./components/SignIn/SignIn3";
 import SignIn4 from "./components/SignIn/SignIn4";
 import SignIn5 from "./components/SignIn/SignIn5";
-import SignInOne from "./components/SignIn/SignInOne";
 import SignUp from "./components/SignUp/SignUp";
 import SignUp1 from "./components/SignUp/SignUp1";
 import SignUp2 from "./components/SignUp/SignUp2";
 import SignUp3 from "./components/SignUp/SignUp3";
 import SignUp4 from "./components/SignUp/SignUp4";
 import TeamSection from "./components/TeamSection";
+import { SignInOne } from "./exports/SignIn";
 
 function App() {
     return (
