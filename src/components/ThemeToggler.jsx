@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+
 import { ThemeContext } from "../utils/context/ThemeProvider";
 
 function ThemeToggler() {
