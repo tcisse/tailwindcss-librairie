@@ -2,8 +2,9 @@ import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import Accordion from "./components/Accordion";
-import FooterCis from "./components/Cisse/FooterCis";
-import Newsletter4 from "./components/Cisse/NewsletterCis";
+import FooterCis from "./components/cisse/FooterCis";
+import NavbarCis from "./components/cisse/NavbarCis";
+import Newsletter4 from "./components/cisse/NewsletterCis";
 import FaqSection from "./components/FaqSection";
 import Footer from "./components/Footer/Footer";
 import Footer1 from "./components/Footer/Footer1";
@@ -15,7 +16,6 @@ import NavBar from "./components/NavBar/NavBar";
 import NavBar1 from "./components/NavBar/NavBar1";
 import NavBar2 from "./components/NavBar/NavBar2";
 import NavBar3 from "./components/NavBar/NavBar3";
-import NavBar4 from "./components/NavBar/NavBar4";
 import Index from "./components/Newsletter/index";
 import Newsletter1 from "./components/Newsletter/Newsletter1";
 import Newsletter2 from "./components/Newsletter/Newsletter2";
@@ -48,7 +48,7 @@ function App() {
                 <Route path="/navbar1" element={<NavBar1 />} />
                 <Route path="/navbar2" element={<NavBar2 />} />
                 <Route path="/navbar3" element={<NavBar3 />} />
-                <Route path="/navbar4" element={<NavBar4 />} />
+                <Route path="/navbar4" element={<NavbarCis />} />
                 <Route path="/navbar" element={<NavBar />} />
 
                 {/*Sing up pages*/}

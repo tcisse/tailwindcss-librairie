@@ -2,7 +2,7 @@ import React from "react";
 
 import news from "../../assets/img/news.svg";
 
-export default function Newsletter4() {
+export default function NewsletterCis() {
     return (
         <section className="lg:mx-20 mx-5 lg:p-20 lgm:mt-0 mt-10 ">
             <div className="bg-black text-white rounded-md lg:p-20 p-10">
