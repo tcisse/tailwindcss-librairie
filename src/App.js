@@ -54,7 +54,6 @@ function App() {
                 <Route path="/SignUp" element={<SignUp />} />
                 <Route path="/signup1" element={<SignUpO />} />
                 <Route path="/signup2" element={<SignUp2 />} />
-                <Route path="/signupcis" element={<SignUpCis />} />
                 <Route path="/signup4" element={<SignUp4 />} />
                 <Route path="/sign-up-one" element={<SignUpOne />} />
 
@@ -74,7 +73,6 @@ function App() {
                 <Route path="/signin1" element={<SignIn1 />} />
                 <Route path="/signin2" element={<SignInO />} />
                 <Route path="/signin3" element={<SignIn3 />} />
-                <Route path="/signincis" element={<SignInCis />} />
                 <Route path="/signin5" element={<SignIn5 />} />
                 <Route path="/sign-in-one" element={<SignInOne />} />
 
