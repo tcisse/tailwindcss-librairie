@@ -35,11 +35,8 @@ import TeamSection from "./components/TeamSection";
 import { NewsletterOne } from "./exports/Newslatter";
 import { ResetPasswordOne } from "./exports/ResetPassword";
 import { SignInOne } from "./exports/SignIn";
-import SignInCis from "./Pages/Cisse/SignInCis";
-import SignUpCis from "./Pages/Cisse/SignUpCis";
 import { SignUpOne } from "./exports/SignUp";
 import { UpdatePasswordOne } from "./exports/UpdatePassword";
-
 
 function App() {
     return (
@@ -58,7 +55,6 @@ function App() {
                 <Route path="/SignUp" element={<SignUp />} />
                 <Route path="/signup1" element={<SignUp1 />} />
                 <Route path="/signup2" element={<SignUp2 />} />
-                <Route path="/signupcis" element={<SignUpCis />} />
                 <Route path="/signup4" element={<SignUp4 />} />
                 <Route path="/sign-up-one" element={<SignUpOne />} />
 
@@ -78,7 +74,6 @@ function App() {
                 <Route path="/signin1" element={<SignIn1 />} />
                 <Route path="/signin2" element={<SignIn2 />} />
                 <Route path="/signin3" element={<SignIn3 />} />
-                <Route path="/signincis" element={<SignInCis />} />
                 <Route path="/signin5" element={<SignIn5 />} />
                 <Route path="/sign-in-one" element={<SignInOne />} />
 
