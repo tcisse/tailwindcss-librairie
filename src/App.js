@@ -2,8 +2,9 @@ import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import Accordion from "./components/Accordion";
-import FooterCis from "./components/Cisse/FooterCis";
-import Newsletter4 from "./components/Cisse/NewsletterCis";
+import FooterCis from "./components/cisse/FooterCis";
+import NavbarCis from "./components/cisse/NavbarCis";
+import Newsletter4 from "./components/cisse/NewsletterCis";
 import FaqSection from "./components/FaqSection";
 import Footer from "./components/Footer/Footer";
 import Footer1 from "./components/Footer/Footer1";
@@ -15,7 +16,6 @@ import NavBar from "./components/NavBar/NavBar";
 import NavBar1 from "./components/NavBar/NavBar1";
 import NavBar2 from "./components/NavBar/NavBar2";
 import NavBar3 from "./components/NavBar/NavBar3";
-import NavBar4 from "./components/NavBar/NavBar4";
 import Index from "./components/Newsletter/index";
 import Newsletter1 from "./components/Newsletter/Newsletter1";
 import Newsletter3 from "./components/Newsletter/Newsletter3";
@@ -34,6 +34,8 @@ import { ResetPasswordOne, ResetPasswordOrp } from "./exports/ResetPassword";
 import { SignInOne, SignInOrp } from "./exports/SignIn";
 import { SignUpOne, SignUpOrp } from "./exports/SignUp";
 import { UpdatePasswordOne, UpdatePasswordOrp } from "./exports/UpdatePassword";
+import SigninCis from "./pages/cisse/SigninCis";
+import SignupCis from "./pages/cisse/SignupCis";
 
 function App() {
     return (
@@ -45,7 +47,7 @@ function App() {
                 <Route path="/navbar1" element={<NavBar1 />} />
                 <Route path="/navbar2" element={<NavBar2 />} />
                 <Route path="/navbar3" element={<NavBar3 />} />
-                <Route path="/navbar4" element={<NavBar4 />} />
+                <Route path="/navbarcis" element={<NavbarCis />} />
                 <Route path="/navbar" element={<NavBar />} />
 
                 {/*Sing up pages*/}
@@ -53,6 +55,7 @@ function App() {
                 <Route path="/signup1" element={<SignUpOrp />} />
                 <Route path="/signup2" element={<SignUp2 />} />
                 <Route path="/signup4" element={<SignUp4 />} />
+                <Route path="/sign-up-cis" element={<SignupCis />} />
                 <Route path="/sign-up-one" element={<SignUpOne />} />
 
                 {/*Theme section page*/}
@@ -72,6 +75,7 @@ function App() {
                 <Route path="/signin2" element={<SignInOrp />} />
                 <Route path="/signin3" element={<SignIn3 />} />
                 <Route path="/signin5" element={<SignIn5 />} />
+                <Route path="/sign-in-cis" element={<SigninCis />} />
                 <Route path="/sign-in-one" element={<SignInOne />} />
 
                 {/*Reset password pages*/}
