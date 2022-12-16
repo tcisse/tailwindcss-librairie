@@ -63,7 +63,7 @@ export default function SignupCis() {
                     <span className="mx-2 cursor-pointer">I agree to privacy policy & terms</span>
                 </div>
                 <div className="flex justify-center">
-                    <button className="bg-blue-500 lg:px-40 px-20 hover:bg-violet-600  py-2 rounded-md text-white font-bold">
+                    <button className="bg-blue-500 lg:px-40 px-28 hover:bg-violet-600  py-2 rounded-md text-white font-bold">
                         SIGN IN
                     </button>
                 </div>

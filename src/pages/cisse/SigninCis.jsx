@@ -4,7 +4,7 @@ import lock from "../../assets/img/lock.svg";
 
 export default function SigninCis() {
     return (
-        <div className="flex justify-center items-center space-y-10 p-20">
+        <div className="flex justify-center items-center space-y-10 lg:p-20">
             <form className="space-y-10" action="">
                 <div className="flex justify-center">
                     <img src={lock} alt="lockimage" />
@@ -16,7 +16,7 @@ export default function SigninCis() {
                     <p>Enter your identifiant ton sign in</p>
                 </div>
                 <div className="">
-                    <div>
+                    <div className="lg:mx-0 mx-5">
                         <label htmlFor="" className="font-bold">
                             Email
                         </label>
@@ -26,11 +26,11 @@ export default function SigninCis() {
                         name="email"
                         id="email"
                         placeholder="Enter yoour email"
-                        className="px-2 py-2 border rounded-md w-[378px]"
+                        className="px-2 lg:mx-0 mx-5 py-2 border rounded-md  lg:w-[378px] w-[350px]"
                     />
                 </div>
                 <div className="">
-                    <div>
+                    <div className="lg:mx-0 mx-5">
                         <label htmlFor="" className="font-bold">
                             Password
                         </label>
@@ -40,18 +40,18 @@ export default function SigninCis() {
                         name="password"
                         id="password"
                         placeholder="Enter yoour password"
-                        className="px-2 py-2 border rounded-md w-[378px]"
+                        className="px-2 lg:mx-0 mx-5 py-2 border rounded-md  lg:w-[378px] w-[350px]"
                     />
                 </div>
-                <div className="">
-                    <input type="checkbox" name="" id="" placeholder="Remember me" />
+                <div className="lg:mx-0 mx-5 lg:text-base text-sm">
+                    <input type="checkbox" name="" id="" />
                     <span className="mx-2">Remember me</span>
                     <span className="ml-24 text-blue-600">
                         <Link to="/resetpassword-cis">Forgot password ?</Link>
                     </span>
                 </div>
-                <div>
-                    <button className="bg-blue-500 px-40 hover:bg-violet-600 py-2 rounded-md text-white font-bold">
+                <div className="flex justify-center">
+                    <button className="bg-blue-500 lg:px-40 px-28 hover:bg-violet-600 py-2 rounded-md text-white font-bold">
                         SIGN IN
                     </button>
                 </div>
