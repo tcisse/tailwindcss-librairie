@@ -1,4 +1,4 @@
 import ResetPasswordOne from "../pages/onesine/auth/ResetPasswordOne";
-import ResetPasswordO from "../pages/orphee/auth/ResetPasswordO";
+import ResetPasswordOrp from "../pages/orphee/auth/ResetPasswordOrp";
 
-export { ResetPasswordOne, ResetPasswordO };
+export { ResetPasswordOne, ResetPasswordOrp };
