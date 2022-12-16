@@ -29,11 +29,11 @@ import SignUp from "./components/SignUp/SignUp";
 import SignUp2 from "./components/SignUp/SignUp2";
 import SignUp4 from "./components/SignUp/SignUp4";
 import TeamSection from "./components/TeamSection";
-import { NewsletterO, NewsletterOne } from "./exports/Newslatter";
-import { ResetPasswordOne, ResetPasswordO } from "./exports/ResetPassword";
-import { SignInOne, SignInO } from "./exports/SignIn";
-import { SignUpOne, SignUpO } from "./exports/SignUp";
-import { UpdatePasswordOne, UpdatePasswordO } from "./exports/UpdatePassword";
+import { NewsletterOrp, NewsletterOne } from "./exports/Newslatter";
+import { ResetPasswordOne, ResetPasswordOrp } from "./exports/ResetPassword";
+import { SignInOne, SignInOrp } from "./exports/SignIn";
+import { SignUpOne, SignUpOrp } from "./exports/SignUp";
+import { UpdatePasswordOne, UpdatePasswordOrp } from "./exports/UpdatePassword";
 import SigninCis from "./pages/cisse/SigninCis";
 import SignupCis from "./pages/cisse/SignupCis";
 
@@ -52,7 +52,7 @@ function App() {
 
                 {/*Sing up pages*/}
                 <Route path="/SignUp" element={<SignUp />} />
-                <Route path="/signup1" element={<SignUpO />} />
+                <Route path="/signup1" element={<SignUpOrp />} />
                 <Route path="/signup2" element={<SignUp2 />} />
                 <Route path="/signup4" element={<SignUp4 />} />
                 <Route path="/sign-up-cis" element={<SignupCis />} />
@@ -72,7 +72,7 @@ function App() {
                 {/*Sign in pages*/}
                 <Route path="/signin" element={<SignIn />} />
                 <Route path="/signin1" element={<SignIn1 />} />
-                <Route path="/signin2" element={<SignInO />} />
+                <Route path="/signin2" element={<SignInOrp />} />
                 <Route path="/signin3" element={<SignIn3 />} />
                 <Route path="/signin5" element={<SignIn5 />} />
                 <Route path="/sign-in-cis" element={<SigninCis />} />
@@ -80,16 +80,16 @@ function App() {
 
                 {/*Reset password pages*/}
                 <Route path="/reset-password-one" element={<ResetPasswordOne />} />
-                <Route path="/reset-password-o" element={<ResetPasswordO />} />
+                <Route path="/reset-password-o" element={<ResetPasswordOrp />} />
 
                 {/*Update password page*/}
                 <Route path="/update-password-one" element={<UpdatePasswordOne />} />
-                <Route path="/update-password-o" element={<UpdatePasswordO />} />
+                <Route path="/update-password-o" element={<UpdatePasswordOrp />} />
 
                 {/*Newsletter pages*/}
                 <Route path="/newsletter" element={<Index />} />
                 <Route path="/newsletter1" element={<Newsletter1 />} />
-                <Route path="/newsletter2" element={<NewsletterO />} />
+                <Route path="/newsletter2" element={<NewsletterOrp />} />
                 <Route path="/newsletter3" element={<Newsletter3 />} />
                 <Route path="/newsletter4" element={<Newsletter4 />} />
                 <Route path="/newsletter5" element={<Newsletter5 />} />

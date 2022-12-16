@@ -1,4 +1,4 @@
 import SignInOne from "../pages/onesine/auth/SignInOne";
-import SignInO from "../pages/orphee/auth/SignInO";
+import SignInOrp from "../pages/orphee/auth/SignInOrp";
 
-export { SignInOne, SignInO };
+export { SignInOne, SignInOrp };
