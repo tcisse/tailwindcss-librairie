@@ -33,7 +33,12 @@ import { NewsletterOrp, NewsletterOne } from "./exports/Newslatter";
 import { ResetPasswordOne, ResetPasswordOrp } from "./exports/ResetPassword";
 import { SignInOne, SignInOrp } from "./exports/SignIn";
 import { SignUpOne, SignUpOrp } from "./exports/SignUp";
-import { UpdatePasswordOne, UpdatePasswordOrp } from "./exports/UpdatePassword";
+import {
+    ResetPasswordCis,
+    UpdatePasswordCis,
+    UpdatePasswordOne,
+    UpdatePasswordOrp
+} from "./exports/UpdatePassword";
 import SigninCis from "./pages/cisse/SigninCis";
 import SignupCis from "./pages/cisse/SignupCis";
 
@@ -81,10 +86,12 @@ function App() {
                 {/*Reset password pages*/}
                 <Route path="/reset-password-one" element={<ResetPasswordOne />} />
                 <Route path="/reset-password-o" element={<ResetPasswordOrp />} />
+                <Route path="/reset-password-cis" element={<ResetPasswordCis />} />
 
                 {/*Update password page*/}
                 <Route path="/update-password-one" element={<UpdatePasswordOne />} />
                 <Route path="/update-password-o" element={<UpdatePasswordOrp />} />
+                <Route path="/update-password-cis" element={<UpdatePasswordCis />} />
 
                 {/*Newsletter pages*/}
                 <Route path="/newsletter" element={<Index />} />
