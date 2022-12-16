@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 import lock from "../../assets/img/lock.svg";
 
@@ -16,33 +16,50 @@ export default function SigninCis() {
                     <p>Enter your identifiant ton sign in</p>
                 </div>
                 <div className="">
+                    <div>
+                        <label htmlFor="" className="font-bold">
+                            Email
+                        </label>
+                    </div>
                     <input
                         type="email"
                         name="email"
                         id="email"
                         placeholder="Enter yoour email"
-                        className="px-2 py-2 border w-[378px]"
+                        className="px-2 py-2 border rounded-md w-[378px]"
                     />
                 </div>
                 <div className="">
+                    <div>
+                        <label htmlFor="" className="font-bold">
+                            Password
+                        </label>
+                    </div>
                     <input
                         type="password"
                         name="password"
                         id="password"
                         placeholder="Enter yoour password"
-                        className="px-2 py-2 border w-[378px]"
+                        className="px-2 py-2 border rounded-md w-[378px]"
                     />
                 </div>
                 <div className="">
                     <input type="checkbox" name="" id="" placeholder="Remember me" />
                     <span className="mx-2">Remember me</span>
+                    <span className="ml-24 text-blue-600">
+                        <Link to="/resetpassword-cis">Forgot password ?</Link>
+                    </span>
                 </div>
                 <div>
-                    <button className="bg-blue-500 px-40 py-2 rounded-md">SIGN IN</button>
+                    <button className="bg-blue-500 px-40 hover:bg-violet-600 py-2 rounded-md text-white font-bold">
+                        SIGN IN
+                    </button>
                 </div>
-                <div className="space-x-7 text-blue-600 cursor-pointer">
-                    <span>Forgot password ?</span>
-                    <span>Don't have account ? Sign Up</span>
+                <div className="space-x-7 flex justify-center text-blue-600 cursor-pointer">
+                    Don't have account ?
+                    <Link to="/sign-up-cis" className="ml-3">
+                        Sign up
+                    </Link>
                 </div>
             </form>
         </div>

@@ -55,7 +55,7 @@ function App() {
                 <Route path="/signup1" element={<SignUpO />} />
                 <Route path="/signup2" element={<SignUp2 />} />
                 <Route path="/signup4" element={<SignUp4 />} />
-                <Route path="/signupcis" element={<SignupCis />} />
+                <Route path="/sign-up-cis" element={<SignupCis />} />
                 <Route path="/sign-up-one" element={<SignUpOne />} />
 
                 {/*Theme section page*/}
@@ -75,7 +75,7 @@ function App() {
                 <Route path="/signin2" element={<SignInO />} />
                 <Route path="/signin3" element={<SignIn3 />} />
                 <Route path="/signin5" element={<SignIn5 />} />
-                <Route path="/signincis" element={<SigninCis />} />
+                <Route path="/sign-in-cis" element={<SigninCis />} />
                 <Route path="/sign-in-one" element={<SignInOne />} />
 
                 {/*Reset password pages*/}
