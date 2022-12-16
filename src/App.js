@@ -18,25 +18,22 @@ import NavBar2 from "./components/NavBar/NavBar2";
 import NavBar3 from "./components/NavBar/NavBar3";
 import Index from "./components/Newsletter/index";
 import Newsletter1 from "./components/Newsletter/Newsletter1";
-import Newsletter2 from "./components/Newsletter/Newsletter2";
 import Newsletter3 from "./components/Newsletter/Newsletter3";
 import Newsletter5 from "./components/Newsletter/Newsletter5";
 import PricingSection from "./components/PricingSection";
 import SignIn from "./components/SignIn/SignIn";
 import SignIn1 from "./components/SignIn/SignIn1";
-import SignIn2 from "./components/SignIn/SignIn2";
 import SignIn3 from "./components/SignIn/SignIn3";
 import SignIn5 from "./components/SignIn/SignIn5";
 import SignUp from "./components/SignUp/SignUp";
-import SignUp1 from "./components/SignUp/SignUp1";
 import SignUp2 from "./components/SignUp/SignUp2";
 import SignUp4 from "./components/SignUp/SignUp4";
 import TeamSection from "./components/TeamSection";
-import { NewsletterOne } from "./exports/Newslatter";
-import { ResetPasswordOne } from "./exports/ResetPassword";
-import { SignInOne } from "./exports/SignIn";
-import { SignUpOne } from "./exports/SignUp";
-import { UpdatePasswordOne } from "./exports/UpdatePassword";
+import { NewsletterO, NewsletterOne } from "./exports/Newslatter";
+import { ResetPasswordOne, ResetPasswordO } from "./exports/ResetPassword";
+import { SignInOne, SignInO } from "./exports/SignIn";
+import { SignUpOne, SignUpO } from "./exports/SignUp";
+import { UpdatePasswordOne, UpdatePasswordO } from "./exports/UpdatePassword";
 
 function App() {
     return (
@@ -53,7 +50,7 @@ function App() {
 
                 {/*Sing up pages*/}
                 <Route path="/SignUp" element={<SignUp />} />
-                <Route path="/signup1" element={<SignUp1 />} />
+                <Route path="/signup1" element={<SignUpO />} />
                 <Route path="/signup2" element={<SignUp2 />} />
                 <Route path="/signup4" element={<SignUp4 />} />
                 <Route path="/sign-up-one" element={<SignUpOne />} />
@@ -72,21 +69,23 @@ function App() {
                 {/*Sign in pages*/}
                 <Route path="/signin" element={<SignIn />} />
                 <Route path="/signin1" element={<SignIn1 />} />
-                <Route path="/signin2" element={<SignIn2 />} />
+                <Route path="/signin2" element={<SignInO />} />
                 <Route path="/signin3" element={<SignIn3 />} />
                 <Route path="/signin5" element={<SignIn5 />} />
                 <Route path="/sign-in-one" element={<SignInOne />} />
 
                 {/*Reset password pages*/}
                 <Route path="/reset-password-one" element={<ResetPasswordOne />} />
+                <Route path="/reset-password-o" element={<ResetPasswordO />} />
 
                 {/*Update password page*/}
                 <Route path="/update-password-one" element={<UpdatePasswordOne />} />
+                <Route path="/update-password-o" element={<UpdatePasswordO />} />
 
                 {/*Newsletter pages*/}
                 <Route path="/newsletter" element={<Index />} />
                 <Route path="/newsletter1" element={<Newsletter1 />} />
-                <Route path="/newsletter2" element={<Newsletter2 />} />
+                <Route path="/newsletter2" element={<NewsletterO />} />
                 <Route path="/newsletter3" element={<Newsletter3 />} />
                 <Route path="/newsletter4" element={<Newsletter4 />} />
                 <Route path="/newsletter5" element={<Newsletter5 />} />
