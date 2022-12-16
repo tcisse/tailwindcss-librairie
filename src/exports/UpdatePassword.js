@@ -1,4 +1,4 @@
 import UpdatePasswordOne from "../pages/onesine/auth/UpdatePasswordOne";
-import UpdatePasswordO from "../pages/orphee/auth/UpdatePasswordO";
+import UpdatePasswordOrp from "../pages/orphee/auth/UpdatePasswordOrp";
 
-export { UpdatePasswordOne, UpdatePasswordO };
+export { UpdatePasswordOne, UpdatePasswordOrp };
