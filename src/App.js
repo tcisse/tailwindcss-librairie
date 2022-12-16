@@ -34,6 +34,8 @@ import { ResetPasswordOne, ResetPasswordO } from "./exports/ResetPassword";
 import { SignInOne, SignInO } from "./exports/SignIn";
 import { SignUpOne, SignUpO } from "./exports/SignUp";
 import { UpdatePasswordOne, UpdatePasswordO } from "./exports/UpdatePassword";
+import SigninCis from "./pages/cisse/SigninCis";
+import SignupCis from "./pages/cisse/SignupCis";
 
 function App() {
     return (
@@ -45,7 +47,7 @@ function App() {
                 <Route path="/navbar1" element={<NavBar1 />} />
                 <Route path="/navbar2" element={<NavBar2 />} />
                 <Route path="/navbar3" element={<NavBar3 />} />
-                <Route path="/navbar4" element={<NavbarCis />} />
+                <Route path="/navbarcis" element={<NavbarCis />} />
                 <Route path="/navbar" element={<NavBar />} />
 
                 {/*Sing up pages*/}
@@ -53,6 +55,7 @@ function App() {
                 <Route path="/signup1" element={<SignUpO />} />
                 <Route path="/signup2" element={<SignUp2 />} />
                 <Route path="/signup4" element={<SignUp4 />} />
+                <Route path="/signupcis" element={<SignupCis />} />
                 <Route path="/sign-up-one" element={<SignUpOne />} />
 
                 {/*Theme section page*/}
@@ -72,6 +75,7 @@ function App() {
                 <Route path="/signin2" element={<SignInO />} />
                 <Route path="/signin3" element={<SignIn3 />} />
                 <Route path="/signin5" element={<SignIn5 />} />
+                <Route path="/signincis" element={<SigninCis />} />
                 <Route path="/sign-in-one" element={<SignInOne />} />
 
                 {/*Reset password pages*/}

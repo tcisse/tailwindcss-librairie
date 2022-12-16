@@ -10,8 +10,11 @@ export default function SigninCis() {
                     <img src={lock} alt="lockimage" />
                 </div>
                 <h1 className="flex justify-center">
-                    <span className="text-4xl text-blue-600 font-bold">Sign in </span>
+                    <span className="text-4xl text-blue-600 font-bold">Sign in</span>
                 </h1>
+                <div className="flex justify-center text-lg">
+                    <p>Enter your identifiant ton sign in</p>
+                </div>
                 <div className="">
                     <input
                         type="email"
