@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="none" viewBox="0 0 24 24">
+    <style>
+        .send {
+        animation: send 2s cubic-bezier(1, -0.47, 0.01, 1.37) infinite both;
+        }
+        @keyframes send {
+        0% {
+        transform: translateY(0) translateX(0);
+        }
+        100% {
+        transform: translateY(-20px) translateX(20px);
+        }
+        }
+
+    </style>
+    <g class="send">
+        <path  stroke="#265BFF" stroke-linecap="round" stroke-width="1.5" d="M9.407 14.593l3.058-3.058"/>
+        <path stroke="#0A0A30" stroke-width="1.5" d="M15.564 7.908a.432.432 0 01.528.528l-2.677 10.175a.432.432 0 01-.724.195L5.194 11.31a.432.432 0 01.195-.724l10.175-2.677z"/>
+    </g>
+</svg>

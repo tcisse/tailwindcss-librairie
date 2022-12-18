@@ -1,3 +1,4 @@
 import NewsletterOne from "../pages/onesine/NewsletterOne";
+import NewsletterOrp from "../pages/orphee/newsletter/NewsletterOrp";
 
-export { NewsletterOne };
+export { NewsletterOrp, NewsletterOne };
