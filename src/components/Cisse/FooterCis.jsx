@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Footer5() {
+export default function FooterCis() {
     return (
         <div className="bg-purple-200 w-full flex flex-col justify-center items-center lg:px-20 px-7 py-10 font-raleway">
             <div>

@@ -1,6 +1,5 @@
 import React from "react";
-//Cissé work
-export default function NavBarC() {
+export default function NavbarCis() {
     return (
         <div className="font-raleway">
             {/* First Navbar */}
