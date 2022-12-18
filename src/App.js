@@ -35,11 +35,10 @@ import TeamSection from "./components/TeamSection";
 import { NewsletterOne } from "./exports/Newslatter";
 import { ResetPasswordOne } from "./exports/ResetPassword";
 import { SignInOne } from "./exports/SignIn";
-import SignInCis from "./Pages/Cisse/SignInCis";
-import SignUpCis from "./Pages/Cisse/SignUpCis";
 import { SignUpOne } from "./exports/SignUp";
 import { UpdatePasswordOne } from "./exports/UpdatePassword";
-
+import SignInCis from "./Pages/Cisse/SignInCis";
+import SignUpCis from "./Pages/Cisse/SignUpCis";
 
 function App() {
     return (
