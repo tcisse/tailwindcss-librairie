@@ -46,7 +46,9 @@
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
         "react/no-unescaped-entities": ["error", { "forbid": [">", "}"] }],
-        "prettier/prettier": "error",
+        "prettier/prettier": ["error", {
+            "endOfLine": "auto"
+        }],
         "no-unused-vars": [
             "error",
             {
