@@ -6,14 +6,10 @@ import FooterCis from "./components/Cisse/FooterCis";
 import Newsletter4 from "./components/Cisse/NewsletterCis";
 import FaqSection from "./components/FaqSection";
 import Footer from "./components/Footer/Footer";
-import Footer1 from "./components/Footer/Footer1";
-import Footer2 from "./components/Footer/Footer2";
 import Footer3 from "./components/Footer/Footer3";
 import Footer4 from "./components/Footer/Footer4";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar/NavBar";
-import NavBar1 from "./components/NavBar/NavBar1";
-import NavBar2 from "./components/NavBar/NavBar2";
 import NavBar3 from "./components/NavBar/NavBar3";
 import NavBar4 from "./components/NavBar/NavBar4";
 import Index from "./components/Newsletter/index";
@@ -29,6 +25,8 @@ import SignUp from "./components/SignUp/SignUp";
 import SignUp2 from "./components/SignUp/SignUp2";
 import SignUp4 from "./components/SignUp/SignUp4";
 import TeamSection from "./components/TeamSection";
+import { FooterOrp1, FooterOrp2 } from "./exports/Footer";
+import { NavBarOrp1, NavBarOrp2 } from "./exports/NavBar";
 import { NewsletterOrp, NewsletterOne } from "./exports/Newslatter";
 import { ResetPasswordOne, ResetPasswordOrp } from "./exports/ResetPassword";
 import { SignInOne, SignInOrp } from "./exports/SignIn";
@@ -42,8 +40,8 @@ function App() {
                 <Route path="/" element={<Home />} />
 
                 {/*Navbar pages*/}
-                <Route path="/navbar1" element={<NavBar1 />} />
-                <Route path="/navbar2" element={<NavBar2 />} />
+                <Route path="/navbar1" element={<NavBarOrp1 />} />
+                <Route path="/navbar2" element={<NavBarOrp2 />} />
                 <Route path="/navbar3" element={<NavBar3 />} />
                 <Route path="/navbar4" element={<NavBar4 />} />
                 <Route path="/navbar" element={<NavBar />} />
@@ -60,8 +58,8 @@ function App() {
 
                 {/*Footer pages*/}
                 <Route path="/footer" element={<Footer />} />
-                <Route path="/footer1" element={<Footer1 />} />
-                <Route path="/footer2" element={<Footer2 />} />
+                <Route path="/footer1" element={<FooterOrp1 />} />
+                <Route path="/footer2" element={<FooterOrp2 />} />
                 <Route path="/footer3" element={<Footer3 />} />
                 <Route path="/footer4" element={<Footer4 />} />
                 <Route path="/footer5" element={<FooterCis />} />

@@ -1,4 +1,4 @@
-import { index_1, index_2, index_3 } from "../../assets/img/exports";
+import { index_1, index_2, index_3 } from "../../../assets/img/exports";
 const getYear = () => {
     let today = new Date();
     let year = today.getUTCFullYear();
