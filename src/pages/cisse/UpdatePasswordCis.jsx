@@ -5,7 +5,7 @@ import refresh from "../../assets/img/refresh.svg";
 
 export default function UpdatePasswordCis() {
     return (
-        <div>
+        <div className="">
             <div className="flex justify-center items-center space-y-10 lg:p-20">
                 <form className="space-y-10" action="">
                     <div className="flex justify-center">
@@ -46,7 +46,7 @@ export default function UpdatePasswordCis() {
                         />
                     </div>
                     <div className="flex justify-center">
-                        <button className="bg-blue-500 lg:px-40 px-28 hover:bg-violet-600 py-2 rounded-md text-white font-bold">
+                        <button className="bg-blue-500 lg:px-28 px-28 hover:bg-violet-600 py-2 rounded-md text-white font-bold">
                             Update password
                         </button>
                     </div>

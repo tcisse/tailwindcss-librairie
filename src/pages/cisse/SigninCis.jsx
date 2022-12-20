@@ -47,7 +47,7 @@ export default function SigninCis() {
                     <input type="checkbox" name="" id="" />
                     <span className="mx-2">Remember me</span>
                     <span className="ml-24 text-blue-600">
-                        <Link to="/resetpassword-cis">Forgot password ?</Link>
+                        <Link to="/reset-password-cis">Forgot password ?</Link>
                     </span>
                 </div>
                 <div className="flex justify-center">
