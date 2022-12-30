@@ -2,9 +2,9 @@ import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import Accordion from "./components/Accordion";
-import FooterCis from "./components/ciss/FooterCis";
-import NavbarCis from "./components/ciss/NavbarCis";
-import Newsletter4 from "./components/ciss/NewsletterCis";
+import FooterCis from "./components/cisse/FooterCis";
+import NavbarCis from "./components/cisse/NavbarCis";
+import Newsletter4 from "./components/cisse/NewsletterCis";
 import FaqSection from "./components/FaqSection";
 import Footer from "./components/Footer/Footer";
 import Footer3 from "./components/Footer/Footer3";
