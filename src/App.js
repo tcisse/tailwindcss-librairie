@@ -10,12 +10,12 @@ import Footer from "./components/Footer/Footer";
 import Footer3 from "./components/Footer/Footer3";
 import Footer4 from "./components/Footer/Footer4";
 import Home from "./components/Home";
+import NewsletterLib from "./components/libert/NewsletterLib";
 import NavBar from "./components/NavBar/NavBar";
 import NavBar3 from "./components/NavBar/NavBar3";
 import Index from "./components/Newsletter/index";
 import Newsletter1 from "./components/Newsletter/Newsletter1";
 import Newsletter3 from "./components/Newsletter/Newsletter3";
-import Newsletter5 from "./components/Newsletter/Newsletter5";
 import PricingSection from "./components/PricingSection";
 import SignIn from "./components/SignIn/SignIn";
 import SignIn1 from "./components/SignIn/SignIn1";
@@ -97,7 +97,7 @@ function App() {
                 <Route path="/newsletter2" element={<NewsletterOrp />} />
                 <Route path="/newsletter3" element={<Newsletter3 />} />
                 <Route path="/newsletter4" element={<Newsletter4 />} />
-                <Route path="/newsletter5" element={<Newsletter5 />} />
+                <Route path="/newsletter5" element={<NewsletterLib />} />
                 <Route path="/newsletter-one" element={<NewsletterOne />} />
 
                 {/*FAQ pages*/}

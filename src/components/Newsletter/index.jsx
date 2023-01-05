@@ -10,6 +10,7 @@ export default function Index() {
                 <Link to="/newsletter2">Newsletter 2</Link>
                 <Link to="/newsletter3">Newsletter 3</Link>
                 <Link to="/newsletter4">Newsletter 4</Link>
+                <Link to="/newsletter5">Newsletter 5</Link>
             </div>
         </div>
     );
