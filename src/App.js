@@ -18,7 +18,6 @@ import Newsletter3 from "./components/Newsletter/Newsletter3";
 import PricingSection from "./components/PricingSection";
 import SignIn from "./components/SignIn/SignIn";
 import SignIn3 from "./components/SignIn/SignIn3";
-import SignIn5 from "./components/SignIn/SignIn5";
 import SignUp from "./components/SignUp/SignUp";
 import SignUp2 from "./components/SignUp/SignUp2";
 import SignUp4 from "./components/SignUp/SignUp4";
@@ -39,6 +38,7 @@ import {
 } from "./exports/UpdatePassword";
 import SigninCis from "./pages/cisse/SigninCis";
 import SignupCis from "./pages/cisse/SignupCis";
+import SignInLib from "./pages/libert/SignInLib";
 import ResetPasswordYg from "./pages/yannGomez/ResetPasswordYg";
 import SignInYg from "./pages/yannGomez/SignInYg";
 import UpdatePasswordYg from "./pages/yannGomez/UpdatePasswordYg";
@@ -81,7 +81,7 @@ function App() {
                 <Route path="/signin1" element={<SignInYg />} />
                 <Route path="/signin2" element={<SignInOrp />} />
                 <Route path="/signin3" element={<SignIn3 />} />
-                <Route path="/signin5" element={<SignIn5 />} />
+                <Route path="/signin5" element={<SignInLib />} />
                 <Route path="/sign-in-cis" element={<SigninCis />} />
                 <Route path="/sign-in-one" element={<SignInOne />} />
                 {/*Reset password pages*/}
