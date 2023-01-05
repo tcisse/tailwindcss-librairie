@@ -15,7 +15,6 @@ import NewsletterLib from "./components/libert/NewsletterLib";
 import NavBar from "./components/NavBar/NavBar";
 import NavBar3 from "./components/NavBar/NavBar3";
 import Index from "./components/Newsletter/index";
-import Newsletter3 from "./components/Newsletter/Newsletter3";
 import PricingSection from "./components/PricingSection";
 import SignIn from "./components/SignIn/SignIn";
 import SignIn3 from "./components/SignIn/SignIn3";
@@ -99,7 +98,6 @@ function App() {
                 {/*Newsletter pages*/}
                 <Route path="/newsletter" element={<Index />} />
                 <Route path="/newsletter-orp" element={<NewsletterOrp />} />
-                <Route path="/newsletter3" element={<Newsletter3 />} />
                 <Route path="/newsletter-cis" element={<NewsletterCis />} />
                 <Route path="/newsletter-yag" element={<NewsletterYaG />} />
                 <Route path="/newsletter-lib" element={<NewsletterLib />} />
