@@ -4,7 +4,7 @@ import "./App.css";
 import Accordion from "./components/Accordion";
 import FooterCis from "./components/cisse/FooterCis";
 import NavbarCis from "./components/cisse/NavbarCis";
-import Newsletter4 from "./components/cisse/NewsletterCis";
+import NewsletterCis from "./components/cisse/NewsletterCis";
 import FaqSection from "./components/FaqSection";
 import Footer from "./components/Footer/Footer";
 import Footer3 from "./components/Footer/Footer3";
@@ -15,13 +15,11 @@ import NewsletterLib from "./components/libert/NewsletterLib";
 import NavBar from "./components/NavBar/NavBar";
 import NavBar3 from "./components/NavBar/NavBar3";
 import Index from "./components/Newsletter/index";
-import Newsletter1 from "./components/Newsletter/Newsletter1";
 import Newsletter3 from "./components/Newsletter/Newsletter3";
 import PricingSection from "./components/PricingSection";
 import SignIn from "./components/SignIn/SignIn";
 import SignIn3 from "./components/SignIn/SignIn3";
 import SignUp from "./components/SignUp/SignUp";
-import SignUp4 from "./components/SignUp/SignUp4";
 import TeamSection from "./components/TeamSection";
 import FooterYaG from "./components/yannGomez/FooterYaG";
 import NewsletterYaG from "./components/yannGomez/NewsletterYaG";
@@ -52,18 +50,17 @@ function App() {
                 <Route path="/" element={<Home />} />
 
                 {/*Navbar pages*/}
-                <Route path="/navbar1" element={<NavBarOrp1 />} />
-                <Route path="/navbar2" element={<NavBarOrp2 />} />
+                <Route path="/navbar-orp1" element={<NavBarOrp1 />} />
+                <Route path="/navbar-orp2" element={<NavBarOrp2 />} />
                 <Route path="/navbar3" element={<NavBar3 />} />
-                <Route path="/navbar4" element={<NavBarLib />} />
-                <Route path="/navbarcis" element={<NavbarCis />} />
+                <Route path="/navbar-lib" element={<NavBarLib />} />
+                <Route path="/navbar-cis" element={<NavbarCis />} />
                 <Route path="/navbar" element={<NavBar />} />
 
                 {/*Sing up pages*/}
                 <Route path="/SignUp" element={<SignUp />} />
-                <Route path="/signup1" element={<SignUpOrp />} />
-                <Route path="/signup2" element={<SignUpLib />} />
-                <Route path="/signup4" element={<SignUp4 />} />
+                <Route path="/sign-up-orp" element={<SignUpOrp />} />
+                <Route path="/sign-up-orp" element={<SignUpLib />} />
                 <Route path="/sign-up-cis" element={<SignupCis />} />
                 <Route path="/sign-up-one" element={<SignUpOne />} />
 
@@ -72,19 +69,19 @@ function App() {
 
                 {/*Footer pages*/}
                 <Route path="/footer" element={<Footer />} />
-                <Route path="/footer1" element={<FooterOrp1 />} />
-                <Route path="/footer2" element={<FooterOrp2 />} />
+                <Route path="/footer-orp1" element={<FooterOrp1 />} />
+                <Route path="/footer-orp2" element={<FooterOrp2 />} />
                 <Route path="/footer3" element={<Footer3 />} />
-                <Route path="/footer4" element={<FooterLib />} />
-                <Route path="/footer5" element={<FooterCis />} />
-                <Route path="/footer6" element={<FooterYaG />} />
+                <Route path="/footer-lib" element={<FooterLib />} />
+                <Route path="/footer-cis" element={<FooterCis />} />
+                <Route path="/footer-yag" element={<FooterYaG />} />
 
                 {/*Sign in pages*/}
                 <Route path="/signin" element={<SignIn />} />
-                <Route path="/signin1" element={<SignInYg />} />
-                <Route path="/signin2" element={<SignInOrp />} />
-                <Route path="/signin3" element={<SignIn3 />} />
-                <Route path="/signin5" element={<SignInLib />} />
+                <Route path="/signin-yag" element={<SignInYg />} />
+                <Route path="/signin-orp" element={<SignInOrp />} />
+                <Route path="/signin-orp" element={<SignIn3 />} />
+                <Route path="/signin-lib" element={<SignInLib />} />
                 <Route path="/sign-in-cis" element={<SigninCis />} />
                 <Route path="/sign-in-one" element={<SignInOne />} />
                 {/*Reset password pages*/}
@@ -101,12 +98,11 @@ function App() {
 
                 {/*Newsletter pages*/}
                 <Route path="/newsletter" element={<Index />} />
-                <Route path="/newsletter1" element={<Newsletter1 />} />
-                <Route path="/newsletter2" element={<NewsletterOrp />} />
+                <Route path="/newsletter-orp" element={<NewsletterOrp />} />
                 <Route path="/newsletter3" element={<Newsletter3 />} />
-                <Route path="/newsletter4" element={<Newsletter4 />} />
-                <Route path="/newsletter5" element={<NewsletterYaG />} />
-                <Route path="/newsletter6" element={<NewsletterLib />} />
+                <Route path="/newsletter-cis" element={<NewsletterCis />} />
+                <Route path="/newsletter-yag" element={<NewsletterYaG />} />
+                <Route path="/newsletter-lib" element={<NewsletterLib />} />
                 <Route path="/newsletter-one" element={<NewsletterOne />} />
 
                 {/*FAQ pages*/}
