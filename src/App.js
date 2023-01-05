@@ -8,8 +8,9 @@ import Newsletter4 from "./components/cisse/NewsletterCis";
 import FaqSection from "./components/FaqSection";
 import Footer from "./components/Footer/Footer";
 import Footer3 from "./components/Footer/Footer3";
-import Footer4 from "./components/Footer/Footer4";
 import Home from "./components/Home";
+import FooterLib from "./components/libert/FooterLib";
+import NavBarLib from "./components/libert/NavbarLib";
 import NewsletterLib from "./components/libert/NewsletterLib";
 import NavBar from "./components/NavBar/NavBar";
 import NavBar3 from "./components/NavBar/NavBar3";
@@ -20,7 +21,6 @@ import PricingSection from "./components/PricingSection";
 import SignIn from "./components/SignIn/SignIn";
 import SignIn3 from "./components/SignIn/SignIn3";
 import SignUp from "./components/SignUp/SignUp";
-import SignUp2 from "./components/SignUp/SignUp2";
 import SignUp4 from "./components/SignUp/SignUp4";
 import TeamSection from "./components/TeamSection";
 import FooterYaG from "./components/yannGomez/FooterYaG";
@@ -39,7 +39,8 @@ import {
 } from "./exports/UpdatePassword";
 import SigninCis from "./pages/cisse/SigninCis";
 import SignupCis from "./pages/cisse/SignupCis";
-import SignInLib from "./pages/libert/SignInLib";
+import SignInLib from "./pages/libert/auth/SignInLib";
+import SignUpLib from "./pages/libert/auth/SignUpLib";
 import ResetPasswordYg from "./pages/yannGomez/ResetPasswordYg";
 import SignInYg from "./pages/yannGomez/SignInYg";
 import UpdatePasswordYg from "./pages/yannGomez/UpdatePasswordYg";
@@ -54,13 +55,14 @@ function App() {
                 <Route path="/navbar1" element={<NavBarOrp1 />} />
                 <Route path="/navbar2" element={<NavBarOrp2 />} />
                 <Route path="/navbar3" element={<NavBar3 />} />
+                <Route path="/navbar4" element={<NavBarLib />} />
                 <Route path="/navbarcis" element={<NavbarCis />} />
                 <Route path="/navbar" element={<NavBar />} />
 
                 {/*Sing up pages*/}
                 <Route path="/SignUp" element={<SignUp />} />
                 <Route path="/signup1" element={<SignUpOrp />} />
-                <Route path="/signup2" element={<SignUp2 />} />
+                <Route path="/signup2" element={<SignUpLib />} />
                 <Route path="/signup4" element={<SignUp4 />} />
                 <Route path="/sign-up-cis" element={<SignupCis />} />
                 <Route path="/sign-up-one" element={<SignUpOne />} />
@@ -73,7 +75,7 @@ function App() {
                 <Route path="/footer1" element={<FooterOrp1 />} />
                 <Route path="/footer2" element={<FooterOrp2 />} />
                 <Route path="/footer3" element={<Footer3 />} />
-                <Route path="/footer4" element={<Footer4 />} />
+                <Route path="/footer4" element={<FooterLib />} />
                 <Route path="/footer5" element={<FooterCis />} />
                 <Route path="/footer6" element={<FooterYaG />} />
 
