@@ -10,6 +10,7 @@ import Footer from "./components/Footer/Footer";
 import Footer3 from "./components/Footer/Footer3";
 import Footer4 from "./components/Footer/Footer4";
 import Home from "./components/Home";
+import NewsletterLib from "./components/libert/NewsletterLib";
 import NavBar from "./components/NavBar/NavBar";
 import NavBar3 from "./components/NavBar/NavBar3";
 import Index from "./components/Newsletter/index";
@@ -103,6 +104,7 @@ function App() {
                 <Route path="/newsletter3" element={<Newsletter3 />} />
                 <Route path="/newsletter4" element={<Newsletter4 />} />
                 <Route path="/newsletter5" element={<NewsletterYaG />} />
+                <Route path="/newsletter6" element={<NewsletterLib />} />
                 <Route path="/newsletter-one" element={<NewsletterOne />} />
 
                 {/*FAQ pages*/}
