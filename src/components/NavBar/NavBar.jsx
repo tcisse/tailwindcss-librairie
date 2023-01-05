@@ -4,7 +4,7 @@ import { CgProfile } from "react-icons/cg";
 import { MdOutlineAccountBalanceWallet } from "react-icons/md";
 import { Link } from "react-router-dom";
 
-import Logo from "../../assets/IMG_6613.JPG";
+import Logo from "../../assets/img/IMG_6613.JPG";
 
 const style = {
     wrapper: "bg-[#000] w-screen px-[1.2rem] py-[0.8rem] flex ",

@@ -15,16 +15,16 @@ import NavBar3 from "./components/NavBar/NavBar3";
 import Index from "./components/Newsletter/index";
 import Newsletter1 from "./components/Newsletter/Newsletter1";
 import Newsletter3 from "./components/Newsletter/Newsletter3";
-import Newsletter5 from "./components/Newsletter/Newsletter5";
 import PricingSection from "./components/PricingSection";
 import SignIn from "./components/SignIn/SignIn";
-import SignIn1 from "./components/SignIn/SignIn1";
 import SignIn3 from "./components/SignIn/SignIn3";
 import SignIn5 from "./components/SignIn/SignIn5";
 import SignUp from "./components/SignUp/SignUp";
 import SignUp2 from "./components/SignUp/SignUp2";
 import SignUp4 from "./components/SignUp/SignUp4";
 import TeamSection from "./components/TeamSection";
+import FooterYaG from "./components/yannGomez/FooterYaG";
+import NewsletterYaG from "./components/yannGomez/NewsletterYaG";
 import { FooterOrp1, FooterOrp2 } from "./exports/Footer";
 import { NavBarOrp1, NavBarOrp2 } from "./exports/NavBar";
 import { NewsletterOrp, NewsletterOne } from "./exports/Newslatter";
@@ -39,6 +39,9 @@ import {
 } from "./exports/UpdatePassword";
 import SigninCis from "./pages/cisse/SigninCis";
 import SignupCis from "./pages/cisse/SignupCis";
+import ResetPasswordYg from "./pages/yannGomez/ResetPasswordYg";
+import SignInYg from "./pages/yannGomez/SignInYg";
+import UpdatePasswordYg from "./pages/yannGomez/UpdatePasswordYg";
 
 function App() {
     return (
@@ -71,25 +74,27 @@ function App() {
                 <Route path="/footer3" element={<Footer3 />} />
                 <Route path="/footer4" element={<Footer4 />} />
                 <Route path="/footer5" element={<FooterCis />} />
+                <Route path="/footer6" element={<FooterYaG />} />
 
                 {/*Sign in pages*/}
                 <Route path="/signin" element={<SignIn />} />
-                <Route path="/signin1" element={<SignIn1 />} />
+                <Route path="/signin1" element={<SignInYg />} />
                 <Route path="/signin2" element={<SignInOrp />} />
                 <Route path="/signin3" element={<SignIn3 />} />
                 <Route path="/signin5" element={<SignIn5 />} />
                 <Route path="/sign-in-cis" element={<SigninCis />} />
                 <Route path="/sign-in-one" element={<SignInOne />} />
-
                 {/*Reset password pages*/}
                 <Route path="/reset-password-one" element={<ResetPasswordOne />} />
                 <Route path="/reset-password-o" element={<ResetPasswordOrp />} />
                 <Route path="/reset-password-cis" element={<ResetPasswordCis />} />
+                <Route path="/ResetPasswordYg" element={<ResetPasswordYg />} />
 
                 {/*Update password page*/}
                 <Route path="/update-password-one" element={<UpdatePasswordOne />} />
                 <Route path="/update-password-o" element={<UpdatePasswordOrp />} />
                 <Route path="/update-password-cis" element={<UpdatePasswordCis />} />
+                <Route path="/UpdatePasswordYg" element={<UpdatePasswordYg />} />
 
                 {/*Newsletter pages*/}
                 <Route path="/newsletter" element={<Index />} />
@@ -97,7 +102,7 @@ function App() {
                 <Route path="/newsletter2" element={<NewsletterOrp />} />
                 <Route path="/newsletter3" element={<Newsletter3 />} />
                 <Route path="/newsletter4" element={<Newsletter4 />} />
-                <Route path="/newsletter5" element={<Newsletter5 />} />
+                <Route path="/newsletter5" element={<NewsletterYaG />} />
                 <Route path="/newsletter-one" element={<NewsletterOne />} />
 
                 {/*FAQ pages*/}

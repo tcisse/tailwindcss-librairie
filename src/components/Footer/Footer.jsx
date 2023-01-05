@@ -22,10 +22,10 @@ export default function Footer() {
                     Footer 5
                 </Link>
                 <Link className="hover:text-blue-600" to="/footer6">
-                    Footer 7
+                    Footer 6
                 </Link>
-                <Link className="hover:text-blue-600" to="/footer6">
-                    Footer 8
+                <Link className="hover:text-blue-600" to="/footer7">
+                    Footer 7
                 </Link>
             </div>
         </div>
