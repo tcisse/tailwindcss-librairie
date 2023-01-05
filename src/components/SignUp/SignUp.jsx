@@ -6,10 +6,11 @@ export default function SignUp() {
         <div className="text-2xl pt-10 mx-5 font-raleway font-bold">
             <h1>Sign Up components</h1>
             <div className="flex justify-center mt-10 space-x-10">
-                <Link to="/signup1">Sign Up 1</Link>
-                <Link to="/signup2">Sign Up 2</Link>
-                <Link to="/signup3">Sign Up 3</Link>
-                <Link to="/signup4">Sign Up 4</Link>
+                <Link to="/sign-up-orp">Sign Up 1</Link>
+                <Link to="/sign-up-lib">Sign Up 2</Link>
+                <Link to="/sign-up-cis">Sign Up 3</Link>
+                <Link to="/sign-up-one">Sign Up 4</Link>
+                <Link to="/sign-up-yag">Sign Up 5</Link>
             </div>
         </div>
     );

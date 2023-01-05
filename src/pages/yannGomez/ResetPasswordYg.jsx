@@ -34,10 +34,10 @@ function ResetPasswordYg() {
                         />
                     </div>
                     <div className={style.buttonContainer}>
-                        <Link to="/Signin1" className={style.buttonBack}>
+                        <Link to="/signin-yag" className={style.buttonBack}>
                             <button>Back</button>
                         </Link>
-                        <Link to="/UpdatePasswordYg" className={style.buttonReset}>
+                        <Link to="/update-password-yag" className={style.buttonReset}>
                             <button>Continue</button>
                         </Link>
                     </div>

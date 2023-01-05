@@ -13,14 +13,13 @@ import FooterLib from "./components/libert/FooterLib";
 import NavBarLib from "./components/libert/NavbarLib";
 import NewsletterLib from "./components/libert/NewsletterLib";
 import NavBar from "./components/NavBar/NavBar";
-import NavBar3 from "./components/NavBar/NavBar3";
 import Index from "./components/Newsletter/index";
 import PricingSection from "./components/PricingSection";
 import SignIn from "./components/SignIn/SignIn";
-import SignIn3 from "./components/SignIn/SignIn3";
 import SignUp from "./components/SignUp/SignUp";
 import TeamSection from "./components/TeamSection";
 import FooterYaG from "./components/yannGomez/FooterYaG";
+import NavbarYaG from "./components/yannGomez/NavbarYaG";
 import NewsletterYaG from "./components/yannGomez/NewsletterYaG";
 import { FooterOrp1, FooterOrp2 } from "./exports/Footer";
 import { NavBarOrp1, NavBarOrp2 } from "./exports/NavBar";
@@ -40,6 +39,7 @@ import SignInLib from "./pages/libert/auth/SignInLib";
 import SignUpLib from "./pages/libert/auth/SignUpLib";
 import ResetPasswordYg from "./pages/yannGomez/ResetPasswordYg";
 import SignInYg from "./pages/yannGomez/SignInYg";
+import SignUpYaG from "./pages/yannGomez/SignupYag";
 import UpdatePasswordYg from "./pages/yannGomez/UpdatePasswordYg";
 
 function App() {
@@ -51,17 +51,18 @@ function App() {
                 {/*Navbar pages*/}
                 <Route path="/navbar-orp1" element={<NavBarOrp1 />} />
                 <Route path="/navbar-orp2" element={<NavBarOrp2 />} />
-                <Route path="/navbar3" element={<NavBar3 />} />
                 <Route path="/navbar-lib" element={<NavBarLib />} />
                 <Route path="/navbar-cis" element={<NavbarCis />} />
                 <Route path="/navbar" element={<NavBar />} />
+                <Route path="/navbar-yag" element={<NavbarYaG />} />
 
                 {/*Sing up pages*/}
                 <Route path="/SignUp" element={<SignUp />} />
                 <Route path="/sign-up-orp" element={<SignUpOrp />} />
-                <Route path="/sign-up-orp" element={<SignUpLib />} />
+                <Route path="/sign-up-lib" element={<SignUpLib />} />
                 <Route path="/sign-up-cis" element={<SignupCis />} />
                 <Route path="/sign-up-one" element={<SignUpOne />} />
+                <Route path="/sign-up-yag" element={<SignUpYaG />} />
 
                 {/*Theme section page*/}
                 <Route path="/teamSection" element={<TeamSection />} />
@@ -79,7 +80,6 @@ function App() {
                 <Route path="/signin" element={<SignIn />} />
                 <Route path="/signin-yag" element={<SignInYg />} />
                 <Route path="/signin-orp" element={<SignInOrp />} />
-                <Route path="/signin-orp" element={<SignIn3 />} />
                 <Route path="/signin-lib" element={<SignInLib />} />
                 <Route path="/sign-in-cis" element={<SigninCis />} />
                 <Route path="/sign-in-one" element={<SignInOne />} />
@@ -87,13 +87,13 @@ function App() {
                 <Route path="/reset-password-one" element={<ResetPasswordOne />} />
                 <Route path="/reset-password-o" element={<ResetPasswordOrp />} />
                 <Route path="/reset-password-cis" element={<ResetPasswordCis />} />
-                <Route path="/ResetPasswordYg" element={<ResetPasswordYg />} />
+                <Route path="/reset-password-yag" element={<ResetPasswordYg />} />
 
                 {/*Update password page*/}
                 <Route path="/update-password-one" element={<UpdatePasswordOne />} />
                 <Route path="/update-password-o" element={<UpdatePasswordOrp />} />
                 <Route path="/update-password-cis" element={<UpdatePasswordCis />} />
-                <Route path="/UpdatePasswordYg" element={<UpdatePasswordYg />} />
+                <Route path="/update-password-yag" element={<UpdatePasswordYg />} />
 
                 {/*Newsletter pages*/}
                 <Route path="/newsletter" element={<Index />} />

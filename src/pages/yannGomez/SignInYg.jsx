@@ -12,7 +12,7 @@ const style = {
     form: "max-w-[400px] w-full mx-auto p-8 px-8 bg-yellow-400 rounded-lg shadow-lg shadow-yellow-800/90",
     titleH2: "text-4xl font-bold text-center",
     con: "flex flex-col text-black py-2",
-    inputCont: "rounded-lg bg-black mt-2 p-2 focus:border-blue:500 focus:bg-gray:800",
+    inputCont: "rounded-lg bg-black mt-2 p-2 focus:border-blue:500 focus:bg-gray:800 text-white",
     passwordContainer: "flex justify-between text-black py-2",
     checkboxContainer: "flex items-center",
     checkbox: "mr-2",
@@ -48,7 +48,7 @@ function SignInYg() {
                             <input type="checkbox" className={style.checkbox} />
                             Remenber Me
                         </p>
-                        <Link to="/ResetPasswordYg" className={style.safeCon}>
+                        <Link to="/reset-password-yag" className={style.safeCon}>
                             <RiSafe2Fill className={style.safe} />
                             Forgot password
                         </Link>
