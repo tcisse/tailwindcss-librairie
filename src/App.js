@@ -33,6 +33,8 @@ import {
     UpdatePasswordOne,
     UpdatePasswordOrp
 } from "./exports/UpdatePassword";
+import AccordionCis from "./pages/cisse/AccordionCis";
+import ErrorCis from "./pages/cisse/ErrorCis";
 import SigninCis from "./pages/cisse/SigninCis";
 import SignupCis from "./pages/cisse/SignupCis";
 import SignInLib from "./pages/libert/auth/SignInLib";
@@ -105,12 +107,15 @@ function App() {
 
                 {/*FAQ pages*/}
                 <Route path="/faq" element={<FaqSection />} />
+                <Route path="/accordion-cis" element={<AccordionCis />} />
 
                 {/*Pricing pages*/}
                 <Route path="/pricing" element={<PricingSection />} />
 
-                {/*Accordion pages*/}
+                {/*AccordionCis pages*/}
                 <Route path="/accordion" element={<Accordion />} />
+                {/* 404 error pages */}
+                <Route path="/404-cis" element={<ErrorCis />} />
             </Routes>
         </div>
     );
