@@ -52,16 +52,6 @@ export default function Accordion() {
                         </p>
                     </div>
                 </details>
-                <details>
-                    <summary>Hello</summary>
-                    <div>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa mollitia,
-                            rerum ut vero nulla quam impedit at temporibus assumenda adipisci aut
-                            veniam accusantium natus. Et voluptatum eveniet non illum architecto.
-                        </p>
-                    </div>
-                </details>
             </div>
         </div>
     );

@@ -114,6 +114,7 @@ function App() {
 
                 {/*AccordionCis pages*/}
                 <Route path="/accordion" element={<Accordion />} />
+                <Route path="/accordion-cis" element={<AccordionCis />} />
                 {/* 404 error pages */}
                 <Route path="/404-cis" element={<ErrorCis />} />
             </Routes>
