@@ -5,7 +5,8 @@ import { MdSpaceDashboard } from "react-icons/md";
 import { TbSettings } from "react-icons/tb";
 import { Link } from "react-router-dom";
 
-import TopCards from "../cisse/TopCards";
+// import BarChart from "../../components/cisse/BarChart";
+// import TopCards from "../cisse/TopCards";
 
 export default function SideBar() {
     return (
@@ -37,9 +38,6 @@ export default function SideBar() {
                     </div>
                 </div>
                 <h2 className="ml-32">Welcome back, Cissé</h2>
-            </div>
-            <div>
-                <TopCards />
             </div>
         </div>
     );
