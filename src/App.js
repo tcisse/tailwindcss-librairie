@@ -34,6 +34,7 @@ import {
     UpdatePasswordOrp
 } from "./exports/UpdatePassword";
 import AccordionCis from "./pages/cisse/AccordionCis";
+import Dashboard from "./pages/cisse/Dashboard";
 import ErrorCis from "./pages/cisse/ErrorCis";
 import SigninCis from "./pages/cisse/SigninCis";
 import SignupCis from "./pages/cisse/SignupCis";
@@ -114,8 +115,11 @@ function App() {
 
                 {/*AccordionCis pages*/}
                 <Route path="/accordion" element={<Accordion />} />
+                <Route path="/accordion-cis" element={<AccordionCis />} />
                 {/* 404 error pages */}
                 <Route path="/404-cis" element={<ErrorCis />} />
+                {/* Dashboard pages */}
+                <Route path="/dashboard-cis" element={<Dashboard />} />
             </Routes>
         </div>
     );
